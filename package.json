@@ -31,9 +31,7 @@
   "homepage": "https://github.com/OogleGlu/JSHP#readme",
   "dependencies": {
     "node-static": "^0.7.11",
-    "nodejs-info": "^1.2.1"
-  },
-  "devDependencies": {
+    "nodejs-info": "^1.2.1",
     "@types/node": "^16.11.10",
     "@types/node-static": "^0.7.7",
     "@types/source-map-support": "^0.5.4",
