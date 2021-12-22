@@ -1,2 +1,2 @@
 # JSHP-App
-An app made using [JSHP](/OogleGlu/JSHP) and Heroku deployment.
+An app made using [JSHP](GitHub.com/OogleGlu/JSHP) and Heroku deployment.
