@@ -1,0 +1,6 @@
+{
+  "name": "jshp-testapp",
+  "version": "1.0.0",
+  "description": "JSHP app using Heroku",
+  "main": "index.js"
+}
