@@ -218,7 +218,7 @@ export const startServer = function(host: string, port: number, resource_root: s
                 break;
             }
         }
-    }).listen(port, host, function() {
+    }).listen(port, function() {
         const log = `[${getLongDateTime()}] NodeJS JSHP Server (http://${host}:${port}) started`;
         console.log(log);
         if (logfile) FS.appendFile(logfile, log + '\n', function(error) {

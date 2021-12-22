@@ -54,7 +54,7 @@ const runInCLI = function(args: string[]): void {
             console.log('jshp serve: error: unspecified path');
             process.exit(1);
         }
-        startServer(host, port, path, args[5]);
+        startServer(host, process.env.PORT || port, path, args[5]);
     }
 
     // For invalid options.
