@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/OogleGlu/JSHP-App#readme",
   "dependencies": {
-    "@oogleglu/jshp": "^1.0.1"
+    "@oogleglu/jshp": "^1.0.2"
   }
 }
