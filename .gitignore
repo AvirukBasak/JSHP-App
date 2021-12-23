@@ -7,8 +7,8 @@ npm-debug.log*
 # Vim swp files
 *.swp
 
-# Server files
-*public/
+# package lock
+package-lock.json
 
 # Runtime data
 pids
