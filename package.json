@@ -1,0 +1,22 @@
+{
+  "name": "jshp-app",
+  "version": "1.0.0",
+  "description": "An app made using JSHP and Heroku deployment.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OogleGlu/JSHP-App.git"
+  },
+  "author": "OogleGlu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OogleGlu/JSHP-App/issues"
+  },
+  "homepage": "https://github.com/OogleGlu/JSHP-App#readme",
+  "dependencies": {
+    "@oogleglu/jshp": "^1.0.0"
+  }
+}
