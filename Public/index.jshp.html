@@ -15,6 +15,9 @@
     <script class="jshp">
         const NAME = $_GET['name'] || 'None';
         const UID = $_GET['id'] || 'None';
+        FS.readFile($_RES_ROOT + '/server.log', 'utf8', (err, data) => {
+            Message.echo(String(data));
+        });
     </script jshp>
 
     <h1 id="heading"></h1>
