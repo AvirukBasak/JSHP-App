@@ -1,5 +1,5 @@
 {
-    "trailing_slashes": false,
+    "trailing_slashes": true,
     "redirects": [
         {
             "req": "/e",
@@ -13,6 +13,10 @@
             "src": "/msg/",
             "status": 301
         }
+    ],
+    "forbidden": [
+        "/config.json",
+        "/jshpinfo"
     ],
     "errors": {
         "404": "/404.jshp.html",
