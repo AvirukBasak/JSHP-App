@@ -1,7 +1,8 @@
+<!DOCTYPE html>
 <html>
 <head>
     <meta name="viewport" content="width=device-width, height=device-height">
-    <title>Server Demo</title>
+    <title>JSHP Demo App</title>
     <style>
         body {
             font-family: monospace;
@@ -11,22 +12,38 @@
 </head>
 <body>
 
-    <!-- jshp script -->
     <script class="jshp">
         const NAME = $_GET['name'] || 'None';
-        const UID = $_GET['id'] || 'None';
-        FS.readFile($_RES_ROOT + '/server.log', 'utf8', (err, data) => {
-            Message.echo(String(data));
-        });
+        const UID = $_GET['uid'] || 'None';
     </script jshp>
 
     <h1 id="heading"></h1>
+    <p>
+        <h3>Paths in this domain</h3>
+        <ul>
+            <li><a href="/config/">/config/</a> Server configuration data</li>
+            <li><a href="/logs/">/logs/</a> Server logs</li>
+            <li><a href="/red1">/red1</a> Rewrites to /config/</li>
+            <li><a href="/red2">/red2</a> Rewrites to /logs/</li>
+            <li><a href="/redirect/f">/redirect/f</a> Open redirection</li>
+            <li><a href="/ext">/ext</a> Redirects to https://sendsecretmsg.web.app</li>
+        </ul>
+    </p>
+    <hr>
+    <h3>Using the following</h3>
+    <p>
+        Use ?name= and ?uid= for passing parameters. These parameters will be displayed below.
+    </p>
+    <p>
+        Polluting parameters will display an array.
+    </p>
+
     <p><b>Names: </b><? NAME ?></p>
-    <p><b>UID: </b><? UID ?></p>
+    <p><b>UIDs: </b><? UID ?></p>
 
     <!-- normal browser script -->
     <script id="browser-script">
-        const heading = 'Hello world!';
+        const heading = 'JSHP Demo App';
         document.getElementById('heading').innerHTML = `${heading}`;
     </script>
 

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, height=device-height">
+    <title>JSHP Demo App</title>
+    <style>
+        body {
+            font-family: monospace;
+            font-size: 105%;
+        }
+    </style>
+</head>
+<body>
+
+    <h2 id="heading"></h2>
+
+    <!-- normal browser script -->
+    <script id="browser-script">
+        const heading = 'Server configuration data';
+        document.getElementById('heading').innerHTML = `${heading}`;
+    </script>
+
+    <script class="jshp">
+        Message.echo(JSON.stringify($_CONFIG, null, 4));
+    </script jshp>
+
+</body>
+</html>

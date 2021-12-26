@@ -2,24 +2,19 @@
     "trailing_slashes": true,
     "redirects": [
         {
-            "req": "/e",
+            "req": "/ext",
             "src": "https://sendsecretmsg.web.app",
             "status": 301
         }
     ],
     "rewrites": [
         {
-            "req": "/m",
-            "src": "/msg/",
-            "status": 301
+            "req": "/red1",
+            "src": "/config/"
+        },
+        {
+            "req": "/red2",
+            "src": "/logs/"
         }
-    ],
-    "forbidden": [
-        "/config.json",
-        "/jshpinfo"
-    ],
-    "errors": {
-        "404": "/404.jshp.html",
-        "403": "/403.jshp.html"
-    }
+    ]
 }

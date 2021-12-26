@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, height=device-height">
+    <title>JSHP Demo App</title>
+    <style>
+        body {
+            font-family: monospace;
+            font-size: 105%;
+        }
+    </style>
+</head>
+<body>
+
+    <h2 id="heading"></h2>
+
+    <!-- jshp script -->
+    <script class="jshp">
+        const data = await FS.promises.readFile($_RES_ROOT + '/server.log', 'utf8');
+        Message.echo(String(data));
+    </script jshp>
+
+    <!-- normal browser script -->
+    <script id="browser-script">
+        const heading = 'Server Logs';
+        document.getElementById('heading').innerHTML = `${heading}`;
+    </script>
+
+</body>
+</html>

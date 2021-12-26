@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, height=device-height">
+    <title>JSHP Demo App</title>
+    <style>
+        body {
+            font-family: monospace;
+            font-size: 105%;
+        }
+    </style>
+</head>
+<body>
+
+    <script class="jshp">
+        if ($_GET['url'] && !Array.isArray($_GET['url'])) {
+            set_header('Location', $_GET['url']);
+            $_STATUS_CODE = 302;
+        }
+    </script jshp>
+
+    <h2 id="heading"></h2>
+    <p>
+        Use ?url= for open redirections demo
+    </p>
+
+    <!-- normal browser script -->
+    <script id="browser-script">
+        const heading = 'Open redirect';
+        document.getElementById('heading').innerHTML = `${heading}`;
+    </script>
+ 
+</body>
+</html>
