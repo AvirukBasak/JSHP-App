@@ -2,18 +2,18 @@
     "trailing_slashes": true,
     "redirects": [
         {
-            "req": "/ext",
-            "src": "https://sendsecretmsg.web.app",
+            "req": "/github",
+            "src": "https://github.com/OogleGlu/JSHP-App",
             "status": 301
         }
     ],
     "rewrites": [
         {
-            "req": "/red1",
+            "req": "/rwt1",
             "src": "/config/"
         },
         {
-            "req": "/red2",
+            "req": "/rwt2",
             "src": "/logs/"
         }
     ]
