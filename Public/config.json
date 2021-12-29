@@ -1,5 +1,5 @@
 {
-    "trailing_slashes": true,
+    "trailingSlashes": true,
     "redirects": [
         {
             "req": "/github",

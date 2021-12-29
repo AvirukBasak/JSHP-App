@@ -30,8 +30,8 @@
 
     <script class="jshp">
         if ($_GET['url'] && !Array.isArray($_GET['url'])) {
-            set_header('Location', $_GET['url']);
-            $_STATUS_CODE = 302;
+            setHeader('Location', $_GET['url']);
+            setStatusCode(302);
         }
     </script jshp>
 
