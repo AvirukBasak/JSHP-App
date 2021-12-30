@@ -16,5 +16,8 @@
             "req": "/rwt2",
             "src": "/logs/"
         }
-    ]
+    ],
+    "errFiles": {
+        "404": "/404.html"
+    }
 }
