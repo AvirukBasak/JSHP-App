@@ -31,9 +31,6 @@
 
     <!-- jshp script -->
     <script class="jshp">
-        FS.readFile($_RES_ROOT + '/server.log', (err, data) => {
-            jajaja;
-        });
         const data = await FS.promises.readFile($_RES_ROOT + '/server.log', 'utf8');
         Message.echo(String(data));
     </script jshp>
