@@ -1,4 +1,8 @@
 {
+    "noExtension": [
+        ".jshp.html",
+        ".html"
+    ],
     "trailingSlashes": true,
     "redirects": [
         {

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, height=device-height">
+    <title>JSHP Demo App</title>
+    <style>
+        * {
+        }
+        body {
+            padding: 0 10px;
+            font-family: monospace;
+            font-size: 105%;
+        }
+        textarea {
+            outline: none;
+            height: 45vh;
+            width: calc(100% - 20px);
+            padding: 10px;
+            background-color: #eee;
+            border-color: #777;
+            border-radius: 10px;
+            overflow-y: auto;
+        }
+        .button {
+            -webkit-tab-highlight-color: transparent;
+            margin: auto;
+            width: calc(50% - 20px);
+            padding: 10px;
+            background-color: #eee;
+            border: 1px solid transparent;
+            border-color: #777;
+            border-radius: 10px;
+        }
+        .button:active {
+            background-color: #ccc;
+        }
+    </style>
+</head>
+<body>
+    <h2>Google Closure Compiler API</h2>
+    <p>Enter JavaScript code in the text area and hit 'Optimize' to POST.</p>   
+    <p>The response will be a server generated page.</p>
+    <form action="https://closure-compiler.appspot.com/compile" method="POST">
+        <textarea name="js_code" placeholder="Enter JavaScript"></textarea>
+        <input type="hidden" name="compilation_level" value="WHITESPACE_ONLY">
+        <input type="hidden" name="output_format" value="text">
+        <input type="hidden" name="output_info" value="compiled_code">
+        <br><br>
+        <input class="button" type="submit" value="Optimize">
+    </form>
+    <br>
+  </body>
+</html>
