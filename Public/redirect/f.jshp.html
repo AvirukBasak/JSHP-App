@@ -14,10 +14,14 @@
 <body>
 
     <script class="jshp">
-        let url = $_GET['url'];
-        if (url && !Array.isArray(url)) {
-            setHeader('Location', url);
+        let url = [];
+        if ($_GET['url'] && !Array.isArray($_GET['url'])) {
+            setHeader('Location', $_GET['url']);
             setStatusCode(302);
+        } else {
+            $_GET['url'].forEach(item => {
+                url.push(encodeURIComponent(item));
+            });
         }
     </script jshp>
 
@@ -26,7 +30,7 @@
         Use ?url= for open redirections demo. If ?url is polluted, no redirection will happen.
     </p>
     <script class="jshp">
-        if (url) {
+        if (url && Array.isArray(url)) {
             echo('<p><b>URLs: </b>');
             const str = url.join('\n');
             Message.echo(str);
@@ -42,4 +46,3 @@
  
 </body>
 </html>
- 
