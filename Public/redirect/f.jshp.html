@@ -14,15 +14,24 @@
 <body>
 
     <script class="jshp">
-        if ($_GET['url'] && !Array.isArray($_GET['url'])) {
-            setHeader('Location', $_GET['url']);
+        let url = $_GET['url'];
+        if (url && !Array.isArray(url)) {
+            setHeader('Location', url);
             setStatusCode(302);
         }
     </script jshp>
 
     <h2 id="heading"></h2>
     <p>
-        Use ?url= for open redirections demo
+        Use ?url= for open redirections demo. If ?url is polluted, no redirection will happen.
+    </p>
+    <script class="jshp">
+        if (url) {
+            echo('<p><b>URLs: </b>');
+            const str = url.join('\n');
+            Message.echo(str);
+        }
+    </script jshp>
     </p>
 
     <!-- normal browser script -->
@@ -33,3 +42,4 @@
  
 </body>
 </html>
+ 
