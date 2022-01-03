@@ -1,0 +1,7 @@
+<script class="jshp">
+    Message.echo(
+        JSON.stringify($_HEADERS, null, 4)
+            .replace(/\\\"/g, '%SL%DQ')
+            .replace(/\"/g, '')
+            .replace(/%SL%DQ/g, '"'), 'teal');
+</script jshp>

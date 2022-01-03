@@ -33,33 +33,17 @@
     </script jshp>
 
     <h1 id="heading"></h1>
-    <p>
-        <h3>Paths in this domain</h3>
-        <ul>
-            <li><a href="/config/">/config/</a> Server configuration data</li>
-            <li><a href="/logs/">/logs/</a> Server logs</li>
-            <li><a href="/headers">/headers</a> Request headers</li>
-            <li><a href="/rwt1">/rwt1</a> Rewrites to /config/</li>
-            <li><a href="/rwt2">/rwt2</a> Rewrites to /logs/</li>
-            <li><a href="/redirect/f">/redirect/f</a> Open redirection</li>
-            <li><a href="/github">/github</a> Redirects to https://github.com/OogleGlu/JSHP-App</li>
-        </ul>
-    </p>
-    <hr>
-    <h3>Using the following</h3>
-    <p>
-        Use ?name= and ?uid= for passing parameters. These parameters will be displayed below.
-    </p>
-    <p>
-        Polluting parameters will display an array.
-    </p>
-
-    <p><b>Names: </b><? NAME ?></p>
-    <p><b>UIDs: </b><? UID ?></p>
+    <script class="jshp">
+        Message.echo(
+            JSON.stringify($_HEADERS, null, 4)
+                .replace(/\\\"/g, '%SL%DQ')
+                .replace(/\"/g, '')
+                .replace(/%SL%DQ/g, '"'), 'teal');
+    </script jshp>
 
     <!-- normal browser script -->
     <script id="browser-script">
-        const heading = 'JSHP Demo App';
+        const heading = 'Headers';
         document.getElementById('heading').innerHTML = `${heading}`;
     </script>
 
