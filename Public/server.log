@@ -1,0 +1,73 @@
+[2022-01-03@23:26:54] JSHP Server (0.0.0.0:8080) started
+[2022-01-04@21:57:54] JSHP Server (0.0.0.0:5000) started
+[2022-01-04@21:58:16] INFO ::1 GET /
+[2022-01-04@21:58:17] INFO ::1 200 /index.jshp.html
+[2022-01-04@21:58:17] INFO ::1 GET /favicon.ico
+[2022-01-04@21:58:17] ERROR ::1 404 /favicon.ico
+    Error: ENOENT: no such file or directory, lstat './Public//favicon.ico'
+        at Object.lstatSync (node:fs:1514:3)
+        at Server.serverCallback (/data/data/com.termux/files/home/JSHP-App/node_modules/@oogleglu/jshp/dev/modules/server/server.ts:157:16)
+        at Server.emit (node:events:390:28)
+        at parserOnIncoming (node:_http_server:951:12)
+        at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+[2022-01-04@21:58:17] INFO ::1 404 /404.html
+[2022-01-04@21:58:23] INFO ::1 GET /gclcm
+[2022-01-04@21:58:23] INFO ::1 200 /gclcm.html
+[2022-01-04@21:58:36] INFO ::1 GET /headers
+[2022-01-04@21:58:37] INFO ::1 200 /headers.jshp.html
+[2022-01-04@21:58:44] INFO ::1 GET /redirect/f
+[2022-01-04@21:58:44] INFO ::1 200 /redirect/f.jshp.html
+[2022-01-04@21:59:37] INFO ::1 GET /config/
+[2022-01-04@21:59:37] INFO ::1 200 /config/index.jshp.html
+[2022-01-04@21:59:57] INFO ::1 GET /config/
+[2022-01-04@21:59:58] INFO ::1 200 /config/index.jshp.html
+[2022-01-04@22:00:06] INFO ::1 GET /config/
+[2022-01-04@22:00:07] INFO ::1 200 /config/index.jshp.html
+[2022-01-04@22:00:13] INFO ::1 GET /headers
+[2022-01-04@22:00:14] INFO ::1 200 /headers.jshp.html
+[2022-01-04@22:01:01] INFO ::1 GET /
+[2022-01-04@22:01:02] INFO ::1 200 /index.jshp.html
+[2022-01-04@22:01:16] INFO ::1 GET /?
+[2022-01-04@22:01:17] INFO ::1 200 /index.jshp.html?
+[2022-01-04@22:03:59] INFO ::1 GET /gclcm?
+[2022-01-04@22:03:59] INFO ::1 200 /gclcm.html?
+[2022-01-04@22:04:06] INFO ::1 GET /gclcm
+[2022-01-04@22:04:06] INFO ::1 200 /gclcm.html
+[2022-01-04@22:05:01] INFO ::1 GET /gclcm
+[2022-01-04@22:05:01] INFO ::1 200 /gclcm.html
+[2022-01-04@22:05:02] INFO ::1 GET /favicon.ico
+[2022-01-04@22:05:02] ERROR ::1 404 /favicon.ico
+    Error: ENOENT: no such file or directory, lstat './Public//favicon.ico'
+        at Object.lstatSync (node:fs:1514:3)
+        at Server.serverCallback (/data/data/com.termux/files/home/JSHP-App/node_modules/@oogleglu/jshp/dev/modules/server/server.ts:157:16)
+        at Server.emit (node:events:390:28)
+        at parserOnIncoming (node:_http_server:951:12)
+        at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+[2022-01-04@22:05:02] INFO ::1 404 /404.html
+[2022-01-04@22:05:09] INFO ::1 GET /gclcm?
+[2022-01-04@22:05:09] INFO ::1 200 /gclcm.html?
+[2022-01-04@22:05:15] INFO ::1 GET /gclcm
+[2022-01-04@22:05:15] INFO ::1 200 /gclcm.html
+[2022-01-04@22:06:23] INFO ::1 GET /gclcm
+[2022-01-04@22:06:23] INFO ::1 200 /gclcm.html
+[2022-01-04@22:08:11] INFO ::1 GET /
+[2022-01-04@22:08:12] INFO ::1 200 /index.jshp.html
+[2022-01-04@22:08:13] INFO ::1 GET /favicon.ico
+[2022-01-04@22:08:13] ERROR ::1 404 /favicon.ico
+    Error: ENOENT: no such file or directory, lstat './Public//favicon.ico'
+        at Object.lstatSync (node:fs:1514:3)
+        at Server.serverCallback (/data/data/com.termux/files/home/JSHP-App/node_modules/@oogleglu/jshp/dev/modules/server/server.ts:157:16)
+        at Server.emit (node:events:390:28)
+        at parserOnIncoming (node:_http_server:951:12)
+        at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+[2022-01-04@22:08:13] INFO ::1 404 /404.html
+[2022-01-04@22:08:20] INFO ::1 GET /?
+[2022-01-04@22:08:21] INFO ::1 200 /index.jshp.html?
+[2022-01-04@22:08:38] INFO ::1 GET /
+[2022-01-04@22:08:38] INFO ::1 200 /index.jshp.html
+[2022-01-04@22:08:44] INFO ::1 GET /?
+[2022-01-04@22:08:45] INFO ::1 200 /index.jshp.html?
+[2022-01-04@22:09:47] INFO ::1 GET /
+[2022-01-04@22:09:48] INFO ::1 200 /index.jshp.html
+[2022-01-04@22:09:55] INFO ::1 GET /?
+[2022-01-04@22:09:55] INFO ::1 200 /index.jshp.html?
