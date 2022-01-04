@@ -1,7 +1,6 @@
 # Logs
 npm-debug.log*
 *-debug.log
-*server.log
 \?
 
 # Vim swp files
