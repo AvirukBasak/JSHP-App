@@ -7,7 +7,7 @@ Visit [PHP-App](https://github.com/OogleGlu/PHP-App) to explore.
 ### Files of concern
 - [index.php](https://github.com/OogleGlu/PHP-App/blob/main/Public/index.php)
 - [index.jshp.html](https://github.com/OogleGlu/JSHP-App/blob/main/Public/index.jshp.html)
-- [gclcm.html](https://github.com/OogleGlu/PHP-App/blob/main/Public/gclcm.html)
+- [gclcm.html](https://github.com/OogleGlu/JSHP-App/blob/main/Public/gclcm.html)
 
 
 ### Results
