@@ -12,6 +12,8 @@ Visit [PHP-App](https://github.com/OogleGlu/PHP-App) to explore.
 
 ### Results
 ```
+- Device:  Android with Termux
+- Server:  localhost
 - Browser: Chrome Android incognito
 - 2nd and 3rd records are reloads
 
