@@ -12,6 +12,8 @@ Visit [PHP-App](https://github.com/OogleGlu/PHP-App) to explore.
 
 ### Results
 ```
+- PHP:     8.0.6
+- NODE:    17.1.0
 - Device:  Android with Termux
 - Host:    localhost
 - Browser: Chrome Android incognito
