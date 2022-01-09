@@ -1,6 +1,6 @@
 {
   "name": "jshp-app",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "An app made using JSHP and Heroku deployment.",
   "main": "index.js",
   "scripts": {
