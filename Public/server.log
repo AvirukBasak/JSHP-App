@@ -107,3 +107,69 @@
 [2022-01-10@03:31:53] INFO ::1 200 /config/index.jshp.html
 [2022-01-10@03:32:09] INFO ::1 GET /redirect/f
 [2022-01-10@03:32:09] INFO ::1 200 /redirect/f.jshp.html
+[2022-01-10@11:42:52] JSHP Server (0.0.0.0:8000) started
+[2022-01-10@11:43:25] INFO ::1 GET /
+[2022-01-10@11:43:26] INFO ::1 200 /index.jshp.html
+[2022-01-10@11:43:26] INFO ::1 GET /favicon.ico
+[2022-01-10@11:43:26] ERROR ::1 404 /favicon.ico
+    Error: ENOENT: no such file or directory, lstat './Public//favicon.ico'
+        at Object.lstatSync (node:fs:1516:3)
+        at Server.serverCallback (/data/data/com.termux/files/home/JSHP-App/node_modules/@oogleglu/jshp/dev/modules/server/server.ts:155:16)
+        at Server.emit (node:events:390:28)
+        at parserOnIncoming (node:_http_server:951:12)
+        at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+[2022-01-10@11:43:26] INFO ::1 404 /404.html
+[2022-01-10@11:43:35] INFO ::1 GET /config/
+[2022-01-10@11:43:36] INFO ::1 200 /config/index.jshp.html
+[2022-01-10@11:44:23] INFO ::1 GET /config.json
+[2022-01-10@11:44:23] ERROR ::1 403 /config.json
+[2022-01-10@11:45:17] INFO ::1 GET /configdjson
+[2022-01-10@11:45:17] INFO ::1 200 /configdjson
+[2022-01-10@11:46:07] JSHP Server (0.0.0.0:8000) started
+[2022-01-10@11:46:12] INFO ::1 GET /config/
+[2022-01-10@11:46:13] INFO ::1 200 /config/index.jshp.html
+[2022-01-10@11:46:27] INFO ::1 GET /config.json
+[2022-01-10@11:46:27] ERROR ::1 403 /config.json
+[2022-01-10@11:47:13] JSHP Server (0.0.0.0:8000) started
+[2022-01-10@11:47:15] INFO ::1 GET /config.json
+[2022-01-10@11:47:15] ERROR ::1 403 /config.json
+[2022-01-10@11:47:30] INFO ::1 GET /configkjson
+[2022-01-10@11:47:30] ERROR ::1 403 /configkjson
+[2022-01-10@11:47:41] INFO ::1 GET /configujson
+[2022-01-10@11:47:41] ERROR ::1 403 /configujson
+[2022-01-10@11:48:43] INFO ::1 GET /configdjson
+[2022-01-10@11:48:43] ERROR ::1 403 /configdjson
+[2022-01-10@11:49:10] JSHP Server (0.0.0.0:8000) started
+[2022-01-10@11:49:40] INFO ::1 GET /configdjson
+[2022-01-10@11:49:40] ERROR ::1 403 /configdjson
+[2022-01-10@11:49:48] INFO ::1 GET /config.json
+[2022-01-10@11:49:48] ERROR ::1 403 /config.json
+[2022-01-10@11:49:54] INFO ::1 GET /configdjson
+[2022-01-10@11:49:54] ERROR ::1 403 /configdjson
+[2022-01-10@11:49:55] INFO ::1 GET /configdjson
+[2022-01-10@11:49:55] ERROR ::1 403 /configdjson
+[2022-01-10@11:50:25] INFO ::1 GET /configdjson
+[2022-01-10@11:50:25] ERROR ::1 403 /configdjson
+[2022-01-10@11:50:35] INFO ::1 GET /configdjson
+[2022-01-10@11:50:35] ERROR ::1 403 /configdjson
+[2022-01-10@11:51:04] JSHP Server (0.0.0.0:8000) started
+[2022-01-10@11:51:09] INFO ::1 GET /configdjson
+[2022-01-10@11:51:09] INFO ::1 200 /configdjson
+[2022-01-10@11:51:15] INFO ::1 GET /config.json
+[2022-01-10@11:51:15] ERROR ::1 403 /config.json
+[2022-01-10@11:51:51] JSHP Server (0.0.0.0:8000) started
+[2022-01-10@11:51:53] INFO ::1 GET /
+[2022-01-10@11:51:54] INFO ::1 200 /index.jshp.html
+[2022-01-10@11:51:54] INFO ::1 GET /favicon.ico
+[2022-01-10@11:51:54] ERROR ::1 404 /favicon.ico
+    Error: ENOENT: no such file or directory, lstat './Public//favicon.ico'
+        at Object.lstatSync (node:fs:1516:3)
+        at Server.serverCallback (/data/data/com.termux/files/home/JSHP-App/node_modules/@oogleglu/jshp/dev/modules/server/server.ts:155:16)
+        at Server.emit (node:events:390:28)
+        at parserOnIncoming (node:_http_server:951:12)
+        at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+[2022-01-10@11:51:54] INFO ::1 404 /404.html
+[2022-01-10@11:51:55] INFO ::1 GET /config/
+[2022-01-10@11:51:56] INFO ::1 200 /config/index.jshp.html
+[2022-01-10@11:52:01] INFO ::1 GET /config/
+[2022-01-10@11:52:02] INFO ::1 200 /config/index.jshp.html
