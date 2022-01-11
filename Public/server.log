@@ -296,3 +296,35 @@
         at parserOnIncoming (node:_http_server:951:12)
         at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
 [2022-01-11@23:37:46] INFO ::1 404 /404.html
+[2022-01-11@23:51:43] JSHP Server (0.0.0.0:8080) started
+[2022-01-11@23:51:48] INFO ::1 GET /
+[2022-01-11@23:51:48] INFO ::1 500 /index.jshp.html
+[2022-01-11@23:53:04] JSHP Server (0.0.0.0:8080) started
+[2022-01-11@23:53:07] INFO ::1 GET /
+[2022-01-11@23:53:08] INFO ::1 500 /index.jshp.html
+[2022-01-11@23:59:34] JSHP Server (0.0.0.0:8080) started
+[2022-01-11@23:59:40] INFO ::1 GET /
+[2022-01-11@23:59:40] ERROR ::1 500 /index.jshp.html
+    parser exited with 1
+[2022-01-12@00:00:57] INFO ::1 GET /
+[2022-01-12@00:00:57] INFO ::1 200 /index.jshp.html
+[2022-01-12@00:01:06] INFO ::1 GET /?n=7
+[2022-01-12@00:01:07] INFO ::1 200 /index.jshp.html?n=7
+[2022-01-12@00:23:16] INFO ::1 GET /?n=7
+[2022-01-12@00:23:16] INFO ::1 200 /index.jshp.html?n=7
+[2022-01-12@00:29:53] JSHP Server (0.0.0.0:8080) started
+[2022-01-12@00:41:58] INFO ::1 GET /?n=7
+[2022-01-12@00:41:58] INFO ::1 200 /index.jshp.html?n=7
+[2022-01-12@00:41:58] INFO ::1 GET /favicon.ico
+[2022-01-12@00:41:58] ERROR ::1 404 /favicon.ico
+    Error: ENOENT: no such file or directory, lstat './Public/favicon.ico'
+        at Object.lstatSync (node:fs:1516:3)
+        at Server.serverCallback (/data/data/com.termux/files/home/JSHP-App/node_modules/@oogleglu/jshp/dev/modules/server/server.ts:176:16)
+        at Server.emit (node:events:390:28)
+        at parserOnIncoming (node:_http_server:951:12)
+        at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+[2022-01-12@00:41:58] INFO ::1 404 /404.html
+[2022-01-12@00:42:16] INFO ::1 GET /?n=7
+[2022-01-12@00:42:16] INFO ::1 200 /index.jshp.html?n=7
+[2022-01-12@00:46:17] INFO ::1 GET /?n=7
+[2022-01-12@00:46:17] INFO ::1 200 /index.jshp.html?n=7
