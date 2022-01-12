@@ -21,6 +21,21 @@
     </script>
 
     <script class="jshp">
+        if ($_GET['act'] && !Array.isArray($_GET['act']))
+            switch ($_GET['act']) {
+                case 'reconf': {
+                    Server.reloadConfig();
+                    break;
+                }
+                case 'recomp': {
+                    Server.recompile();
+                    break;
+                }
+                default: {
+                    Logger.warn('/config/ invalid act: ' + $_GET['act']);
+                    break;
+                }
+            }
         Message.echo(JSON.stringify($_CONFIG, null, 4));
     </script jshp>
 

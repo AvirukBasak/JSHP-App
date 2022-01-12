@@ -104,3 +104,49 @@
 [2022-01-12@08:23:11] WARN ::1 config data reloaded
 [2022-01-12@08:23:11] INFO ::1 200 /config/index.jshp.html
 [2022-01-12@08:24:31] JSHP Server (0.0.0.0:8080) started
+[2022-01-12@23:07:25] JSHP Server (0.0.0.0:8080) started
+[2022-01-12@23:12:32] INFO ::1 GET /config/
+[2022-01-12@23:12:32] INFO ::1 200 /config/index.jshp.html
+[2022-01-12@23:12:33] INFO ::1 GET /favicon.ico
+[2022-01-12@23:12:33] ERROR ::1 404 /favicon.ico
+    Error: ENOENT: no such file or directory, lstat 'Public/favicon.ico'
+        at Object.lstatSync (node:fs:1516:3)
+        at Server.serverCallback (/data/data/com.termux/files/home/JSHP-App/node_modules/@oogleglu/jshp/dev/modules/server/server.ts:178:16)
+        at Server.emit (node:events:390:28)
+        at parserOnIncoming (node:_http_server:951:12)
+        at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+[2022-01-12@23:12:33] INFO ::1 404 /404.html
+[2022-01-12@23:12:41] INFO ::1 GET /config/
+[2022-01-12@23:12:42] INFO ::1 200 /config/index.jshp.html
+[2022-01-12@23:12:56] INFO ::1 GET /config/?act=recomp
+[2022-01-12@23:12:56] INFO ::1 200 /config/index.jshp.html?act=recomp
+[2022-01-12@23:13:27] JSHP Server (0.0.0.0:8080) started
+[2022-01-12@23:13:30] INFO ::1 GET /config/?act=recomp
+[2022-01-12@23:13:30] INFO ::1 500 /config/index.jshp.html?act=recomp
+[2022-01-12@23:16:32] JSHP Server (0.0.0.0:8080) started
+[2022-01-12@23:16:36] INFO ::1 GET /config/?act=recomp
+[2022-01-12@23:16:37] INFO ::1 500 /config/index.jshp.html?act=recomp
+[2022-01-12@23:18:02] JSHP Server (0.0.0.0:8080) started
+[2022-01-12@23:18:25] INFO ::1 GET /config/?act=recomp
+[2022-01-12@23:18:25] WARN ::1 sources recompiled
+[2022-01-12@23:18:25] INFO ::1 200 /config/index.jshp.html?act=recomp
+[2022-01-12@23:18:44] INFO ::1 GET /config/?act=reconf
+[2022-01-12@23:18:45] WARN ::1 config data reloaded
+[2022-01-12@23:18:45] INFO ::1 200 /config/index.jshp.html?act=reconf
+[2022-01-12@23:29:53] JSHP Server (0.0.0.0:8080) started
+[2022-01-12@23:31:08] INFO ::1 GET /
+[2022-01-12@23:31:09] INFO ::1 200 /index.jshp.html
+[2022-01-12@23:31:28] INFO ::1 GET /.builds/srcMapping.json
+[2022-01-12@23:31:28] ERROR ::1 403 /.builds/srcMapping.json
+[2022-01-12@23:32:28] INFO ::1 GET /builds/
+[2022-01-12@23:32:28] ERROR ::1 404 /builds/index.jshp.html
+    Error: ENOENT: no such file or directory, lstat 'Public/builds/index.jshp.html'
+        at Object.lstatSync (node:fs:1516:3)
+        at Server.serverCallback (/data/data/com.termux/files/home/JSHP-App/node_modules/@oogleglu/jshp/dev/modules/server/server.ts:178:16)
+        at Server.emit (node:events:390:28)
+        at parserOnIncoming (node:_http_server:951:12)
+        at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+[2022-01-12@23:32:28] INFO ::1 404 /404.html
+[2022-01-12@23:32:32] INFO ::1 GET /config/
+[2022-01-12@23:32:33] INFO ::1 200 /config/index.jshp.html
+[2022-01-12@23:35:26] INFO ::1 GET /config/?act=reconf
