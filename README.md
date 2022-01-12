@@ -1,6 +1,7 @@
 # JSHP-App
-A [JSHP](https://github.com/OogleGlu/JSHP) app made for speed comparison against PHP.
+A [JSHP](https://github.com/OogleGlu/JSHP) demo app made with Heroku.
 
+<!--
 ### Opponent
 Visit [PHP-App](https://github.com/OogleGlu/PHP-App) to explore.
 
@@ -38,3 +39,4 @@ DYNAMIC    PHP (ms)    JSHP (ms)
 
 ### Conclusion
 PHP just destroys JSHP in serving dynamic files.
+-->
