@@ -4,7 +4,7 @@
   "description": "An app made using JSHP and Heroku deployment.",
   "main": "index.js",
   "scripts": {
-    "build": "./node_modules/@oogleglu/jshp/prod/index.js c ./Public/",
+    "build": "./index.js v && echo && ./index.js c -v ./Public/",
     "start": "./index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

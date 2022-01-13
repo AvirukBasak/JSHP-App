@@ -1,3 +1,3 @@
 (async function() { echo(``); 
-    jshpinfo();
+    nodejsinfo();
 ; echo(``) })();
