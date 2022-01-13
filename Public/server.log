@@ -24,3 +24,6 @@
 [2022-01-13@23:43:54] INFO ::1 GET /config/?act=recomp
 [2022-01-13@23:43:54] WARN ::1 sources recompiled
 [2022-01-13@23:43:54] INFO ::1 200 /config/index.jshp.html?act=recomp
+[2022-01-14@00:46:50] JSHP Server (0.0.0.0:8080) started
+[2022-01-14@00:52:16] JSHP Server (0.0.0.0:8080) started
+[2022-01-14@01:00:06] JSHP Server (0.0.0.0:8080) started
