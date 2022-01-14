@@ -18,7 +18,7 @@
     ; echo(`
 
     <h1 id="heading"></h1>
-    <h4 id="remoteAddress">Remote Address is ${$_REQUEST['remoteAddress']} </h4>
+    <h4 id="remoteAddress">Remote Address is `); echo(`${ $_REQUEST['remoteAddress'] }`); echo(` </h4>
     <p>
         <h3>Paths in this domain</h3>
         <ul>
@@ -42,14 +42,14 @@
         Polluting parameters will display an array.
     </p>
 
-    <p><b>Names: </b>${ NAME }</p>
-    <p><b>UIDs: </b>${ UID }</p>
+    <p><b>Names: </b>`); echo(`${ NAME }`); echo(`</p>
+    <p><b>UIDs: </b>`); echo(`${ UID }`); echo(`</p>
 
     <!-- normal browser script -->
-    <script id="browser-script">
+    <script>
         const heading = 'JSHP Demo App';
-        document.getElementById('heading').innerHTML = EncDec0x60EncDec0x24EncDec0x7Bheading}EncDec0x60;
+        document.getElementById('heading').innerHTML = EncDec0x60EncDec0x24{heading}EncDec0x60;
     </script>
 
 </body>
-</html>`) })();
+</html>`); })();

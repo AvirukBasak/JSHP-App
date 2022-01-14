@@ -15,9 +15,9 @@
     <h2 id="heading"></h2>
 
     <!-- normal browser script -->
-    <script id="browser-script">
+    <script>
         const heading = 'Server Config';
-        document.getElementById('heading').innerHTML = EncDec0x60EncDec0x24EncDec0x7Bheading}EncDec0x60;
+        document.getElementById('heading').innerHTML = EncDec0x60EncDec0x24{heading}EncDec0x60;
     </script>
 
     `); 
@@ -38,6 +38,18 @@
             }
         Message.echo(JSON.stringify($_CONFIG, null, 4));
     ; echo(`
-
+    `); 
+        const number = Number($_GET['num']);
+    ; echo(`
+    <p>
+        <b>Series: </b>
+        `); 
+            const arr = [];
+            for (let i = 0; i < number; i++) {
+                arr.push(i);
+            }
+            echo(String(arr));
+        ; echo(`
+    </p>
 </body>
-</html>`) })();
+</html>`); })();

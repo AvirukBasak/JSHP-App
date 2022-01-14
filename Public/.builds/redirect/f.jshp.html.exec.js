@@ -40,10 +40,10 @@
     </p>
 
     <!-- normal browser script -->
-    <script id="browser-script">
+    <script>
         const heading = 'Open Redirect';
-        document.getElementById('heading').innerHTML = EncDec0x60EncDec0x24EncDec0x7Bheading}EncDec0x60;
+        document.getElementById('heading').innerHTML = EncDec0x60EncDec0x24{heading}EncDec0x60;
     </script>
  
 </body>
-</html>`) })();
+</html>`); })();
