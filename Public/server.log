@@ -728,3 +728,19 @@
 [2022-01-15@03:03:30] INFO ::1 200 /giant.jshp.html
 [2022-01-15@03:03:39] INFO ::1 GET /giant.html
 [2022-01-15@03:03:39] INFO ::1 200 /giant.html
+[2022-01-15@03:10:48] INFO ::1 GET /config/
+[2022-01-15@03:10:49] INFO ::1 200 /config/index.jshp.html
+[2022-01-15@03:11:04] INFO ::1 GET /config/?act=reconf
+[2022-01-15@03:17:49] JSHP Server (0.0.0.0:8080) started
+[2022-01-15@03:17:52] INFO ::1 GET /config/
+[2022-01-15@03:17:53] INFO ::1 200 /config/index.jshp.html
+[2022-01-15@03:18:11] INFO ::1 GET /config/?act=conf
+[2022-01-15@03:18:11] WARN ::1 /config/ invalid act: conf
+[2022-01-15@03:18:11] INFO ::1 200 /config/index.jshp.html?act=conf
+[2022-01-15@03:18:17] INFO ::1 GET /config/?act=reconf
+[2022-01-15@03:18:17] WARN ::1 config data reloaded
+[2022-01-15@03:18:17] INFO ::1 200 /config/index.jshp.html?act=reconf
+[2022-01-15@03:18:17] INFO ::1 GET /config/
+[2022-01-15@03:18:18] INFO ::1 200 /config/index.jshp.html
+[2022-01-15@03:20:04] INFO ::1 GET /
+[2022-01-15@03:20:04] INFO ::1 200 /index.jshp.html

@@ -29,8 +29,4 @@
     "errFiles": {
         "404": "/404.html"
     },
-    "hotCompile": true,
-    "respondInChunks": false,
-    "chunkLimit": 200,
-    "chunksPerEcho": 2
 }
