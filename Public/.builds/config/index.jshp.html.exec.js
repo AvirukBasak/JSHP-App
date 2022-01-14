@@ -38,18 +38,5 @@
             }
         Message.echo(JSON.stringify($_CONFIG, null, 4));
     ; echo(`
-    `); 
-        const number = Number($_GET['num']);
-    ; echo(`
-    <p>
-        <b>Series: </b>
-        `); 
-            const arr = [];
-            for (let i = 0; i < number; i++) {
-                arr.push(i);
-            }
-            echo(String(arr));
-        ; echo(`
-    </p>
 </body>
 </html>`); })();
