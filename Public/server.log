@@ -744,3 +744,73 @@
 [2022-01-15@03:18:18] INFO ::1 200 /config/index.jshp.html
 [2022-01-15@03:20:04] INFO ::1 GET /
 [2022-01-15@03:20:04] INFO ::1 200 /index.jshp.html
+[2022-01-15@03:39:43] INFO ::1 GET /config/
+[2022-01-15@03:39:43] INFO ::1 200 /config/index.jshp.html
+[2022-01-15@03:39:56] INFO ::1 GET /config/?act=reconf
+[2022-01-15@03:39:57] WARN ::1 config data reloaded
+[2022-01-15@03:39:57] INFO ::1 200 /config/index.jshp.html?act=reconf
+[2022-01-15@03:39:57] INFO ::1 GET /config/
+[2022-01-15@03:39:57] INFO ::1 200 /config/index.jshp.html
+[2022-01-15@03:40:03] INFO ::1 GET /gclcm
+[2022-01-15@03:40:03] INFO ::1 200 /gclcm.html
+[2022-01-15@03:40:04] INFO ::1 GET /config/
+[2022-01-15@03:40:05] INFO ::1 200 /config/index.jshp.html
+[2022-01-15@03:40:21] INFO ::1 GET /config/
+[2022-01-15@03:40:21] ERROR ::1 500 /config/index.jshp.html
+    parser exited with 12
+[2022-01-15@04:25:12] JSHP Server (0.0.0.0:8080) started
+[2022-01-15@04:26:08] INFO ::1 GET /headers
+[2022-01-15@04:26:08] INFO ::1 200 /headers.jshp.html
+[2022-01-15@04:26:08] INFO ::1 GET /favicon.ico
+[2022-01-15@04:26:08] ERROR ::1 404 /favicon.ico
+    Error: ENOENT: no such file or directory, lstat 'Public/favicon.ico'
+        at Object.lstatSync (node:fs:1516:3)
+        at Server.serverCallback (/data/data/com.termux/files/home/JSHP-App/node_modules/@oogleglu/jshp/dev/modules/server/server.ts:177:16)
+        at Server.emit (node:events:390:28)
+        at parserOnIncoming (node:_http_server:951:12)
+        at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+[2022-01-15@04:26:08] INFO ::1 404 /404.html
+[2022-01-15@04:26:20] INFO ::1 GET /config/?act=recomp
+[2022-01-15@04:26:21] WARN ::1 sources recompiled
+[2022-01-15@04:26:21] INFO ::1 200 /config/index.jshp.html?act=recomp
+[2022-01-15@04:26:21] INFO ::1 GET /config/
+[2022-01-15@04:26:21] INFO ::1 200 /config/index.jshp.html
+[2022-01-15@04:28:04] JSHP Server (0.0.0.0:8080) started
+[2022-01-15@04:28:25] INFO ::1 GET /config/?act=recomp
+[2022-01-15@04:28:25] WARN ::1 sources recompiled
+[2022-01-15@04:28:25] INFO ::1 200 /config/index.jshp.html?act=recomp
+[2022-01-15@04:28:26] INFO ::1 GET /config/
+[2022-01-15@04:28:26] INFO ::1 200 /config/index.jshp.html
+[2022-01-15@04:36:16] INFO ::1 GET /config/?act=recomp
+[2022-01-15@04:36:16] WARN ::1 sources recompiled
+[2022-01-15@04:36:16] INFO ::1 200 /config/index.jshp.html?act=recomp
+[2022-01-15@04:36:16] INFO ::1 GET /config/
+[2022-01-15@04:36:17] INFO ::1 200 /config/index.jshp.html
+[2022-01-15@04:36:24] INFO ::1 GET /
+[2022-01-15@04:36:24] INFO ::1 200 /index.jshp.html
+[2022-01-15@04:36:26] INFO ::1 GET /
+[2022-01-15@04:36:26] INFO ::1 200 /index.jshp.html
+[2022-01-15@04:37:11] JSHP Server (0.0.0.0:8080) started
+[2022-01-15@04:37:14] INFO ::1 GET /
+[2022-01-15@04:37:14] INFO ::1 200 /index.jshp.html
+[2022-01-15@04:37:22] INFO ::1 GET /headers
+[2022-01-15@04:37:23] INFO ::1 500 /headers.jshp.html
+[2022-01-15@04:37:26] INFO ::1 GET /config/
+[2022-01-15@04:37:26] INFO ::1 200 /config/index.jshp.html
+[2022-01-15@04:37:36] INFO ::1 GET /config/?act=recomp
+[2022-01-15@04:37:37] WARN ::1 sources recompiled
+[2022-01-15@04:37:37] INFO ::1 200 /config/index.jshp.html?act=recomp
+[2022-01-15@04:37:37] INFO ::1 GET /config/
+[2022-01-15@04:37:37] INFO ::1 200 /config/index.jshp.html
+[2022-01-15@04:38:26] INFO ::1 GET /config/?act=recomp
+[2022-01-15@04:38:26] WARN ::1 sources recompiled
+[2022-01-15@04:38:26] INFO ::1 200 /config/index.jshp.html?act=recomp
+[2022-01-15@04:38:27] INFO ::1 GET /config/
+[2022-01-15@04:38:27] INFO ::1 200 /config/index.jshp.html
+[2022-01-15@04:38:49] INFO ::1 GET /config/?act=recomp
+[2022-01-15@04:38:49] WARN ::1 sources recompiled
+[2022-01-15@04:38:49] INFO ::1 200 /config/index.jshp.html?act=recomp
+[2022-01-15@04:38:49] INFO ::1 GET /config/
+[2022-01-15@04:38:50] INFO ::1 200 /config/index.jshp.html
+[2022-01-15@04:47:45] INFO ::1 GET /config/
+[2022-01-15@04:47:45] INFO ::1 200 /config/index.jshp.html
