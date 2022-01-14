@@ -18,6 +18,7 @@
     ; echo(`
 
     <h1 id="heading"></h1>
+    <h4 id="remoteAddress">Remote Address is ${$_REQUEST['remoteAddress']} </h4>
     <p>
         <h3>Paths in this domain</h3>
         <ul>
