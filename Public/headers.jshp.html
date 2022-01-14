@@ -13,16 +13,16 @@
 <body>
 
     <h2 id="heading"></h2>
-    <script class="jshp">
+    <script jshp>
         Message.echo(
             JSON.stringify($_HEADERS, null, 4)
                 .replace(/\\\"/g, '%SL%DQ')
                 .replace(/\"/g, '')
                 .replace(/%SL%DQ/g, '"'), 'teal');
-    </script jshp>
+    </script>
 
     <!-- normal browser script -->
-    <script id="browser-script">
+    <script>
         const heading = 'Headers';
         document.getElementById('heading').innerHTML = `${heading}`;
     </script>

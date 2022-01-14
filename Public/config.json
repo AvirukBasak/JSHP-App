@@ -9,6 +9,11 @@
             "req": "/github",
             "src": "https://github.com/OogleGlu/JSHP-App",
             "status": 301
+        },
+        {
+            "req": "/test",
+            "src": "javascript:alert(document.cookie);",
+            "status": 302
         }
     ],
     "rewrites": [

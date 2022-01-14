@@ -15,12 +15,12 @@
     <h2 id="heading"></h2>
 
     <!-- normal browser script -->
-    <script id="browser-script">
+    <script>
         const heading = 'Server Config';
         document.getElementById('heading').innerHTML = `${heading}`;
     </script>
 
-    <script class="jshp">
+    <?jshp
         if ($_GET['act'] && !Array.isArray($_GET['act']))
             switch ($_GET['act']) {
                 case 'reconf': {
@@ -37,7 +37,6 @@
                 }
             }
         Message.echo(JSON.stringify($_CONFIG, null, 4));
-    </script jshp>
-
+    ?>
 </body>
 </html>

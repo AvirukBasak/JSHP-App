@@ -13,7 +13,7 @@
 </head>
 <body>
 
-    <script class="jshp">
+    <script jshp>
         let url;
         if ($_GET['url'] && !Array.isArray($_GET['url'])) {
             setHeader('Location', $_GET['url']);
@@ -24,23 +24,23 @@
                 url.push(encodeURIComponent(item));
             });
         }
-    </script jshp>
+    </script>
 
     <h2 id="heading"></h2>
     <p>
         Use ?url= for open redirections demo. If ?url is polluted, no redirection will happen.
     </p>
-    <script class="jshp">
+    <script jshp>
         if (url && Array.isArray(url)) {
             echo('<p><b>URLs: </b>');
             const str = url.join('\n');
             Message.echo(str);
         }
-    </script jshp>
+    </script>
     </p>
 
     <!-- normal browser script -->
-    <script id="browser-script">
+    <script>
         const heading = 'Open Redirect';
         document.getElementById('heading').innerHTML = `${heading}`;
     </script>

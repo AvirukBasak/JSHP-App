@@ -15,13 +15,13 @@
     <h2 id="heading"></h2>
 
     <!-- jshp script -->
-    <script class="jshp">
+    <script jshp>
         const data = await FS.promises.readFile($_RES_ROOT + '/server.log', 'utf8');
         Message.echo(String(data), 'purple');
-    </script jshp>
+    </script>
 
     <!-- normal browser script -->
-    <script id="browser-script">
+    <script>
         const heading = 'Server Logs';
         document.getElementById('heading').innerHTML = `${heading}`;
     </script>
