@@ -25,10 +25,16 @@
             switch ($_GET['act']) {
                 case 'reconf': {
                     Server.reloadConfig();
+                    ; echo(` <script>
+                        location.href = \x60\x24{location.origin}\x24{location.pathname}\x60;
+                    </script> `); 
                     break;
                 }
                 case 'recomp': {
                     Server.recompile();
+                    ; echo(` <script>
+                        location.href = \x60\x24{location.origin}\x24{location.pathname}\x60;
+                    </script> `); 
                     break;
                 }
                 default: {

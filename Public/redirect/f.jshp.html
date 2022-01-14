@@ -13,11 +13,11 @@
 </head>
 <body>
 
-    <script jshp>
+   <script jshp>
         let url;
         if ($_GET['url'] && !Array.isArray($_GET['url'])) {
-            setHeader('Location', $_GET['url']);
             setStatusCode(302);
+            setHeader('Location', $_GET['url']);
         } else if ($_GET['url']) {
             url = [];
             $_GET['url'].forEach(item => {
