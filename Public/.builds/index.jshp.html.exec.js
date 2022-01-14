@@ -48,7 +48,7 @@
     <!-- normal browser script -->
     <script>
         const heading = 'JSHP Demo App';
-        document.getElementById('heading').innerHTML = EncDec0x60EncDec0x24{heading}EncDec0x60;
+        document.getElementById('heading').innerHTML = \x60\x24{heading}\x60;
     </script>
 
 </body>

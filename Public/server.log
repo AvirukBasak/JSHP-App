@@ -266,3 +266,31 @@
 [2022-01-14@17:41:09] INFO ::ffff:127.0.0.1 200 /gclcm.html
 [2022-01-14@17:41:24] INFO ::ffff:127.0.0.1 GET /github
 [2022-01-14@17:41:24] INFO ::ffff:127.0.0.1 301 https://github.com/OogleGlu/JSHP-App
+[2022-01-14@18:02:09] INFO ::ffff:127.0.0.1 GET /LICENSE.txt
+[2022-01-14@18:02:09] ERROR ::ffff:127.0.0.1 404 /LICENSE.txt
+    Error: ENOENT: no such file or directory, lstat 'Public/LICENSE.txt'
+        at Object.lstatSync (node:fs:1514:3)
+        at Server.serverCallback (/home/aviruk/GitHub/JSHP-App/node_modules/@oogleglu/jshp/dev/modules/server/server.ts:178:16)
+        at Server.emit (node:events:390:28)
+        at parserOnIncoming (node:_http_server:951:12)
+        at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+[2022-01-14@18:02:09] INFO ::ffff:127.0.0.1 404 /404.html
+[2022-01-14@18:02:19] INFO ::ffff:127.0.0.1 GET /favicon.ico
+[2022-01-14@18:02:19] ERROR ::ffff:127.0.0.1 404 /favicon.ico
+    Error: ENOENT: no such file or directory, lstat 'Public/favicon.ico'
+        at Object.lstatSync (node:fs:1514:3)
+        at Server.serverCallback (/home/aviruk/GitHub/JSHP-App/node_modules/@oogleglu/jshp/dev/modules/server/server.ts:178:16)
+        at Server.emit (node:events:390:28)
+        at parserOnIncoming (node:_http_server:951:12)
+        at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+[2022-01-14@18:02:19] INFO ::ffff:127.0.0.1 404 /404.html
+[2022-01-14@18:02:20] INFO ::ffff:127.0.0.1 GET /
+[2022-01-14@18:02:20] INFO ::ffff:127.0.0.1 200 /index.jshp.html
+[2022-01-14@18:02:28] INFO ::ffff:127.0.0.1 GET /config/
+[2022-01-14@18:02:29] INFO ::ffff:127.0.0.1 200 /config/index.jshp.html
+[2022-01-14@18:07:57] INFO ::ffff:127.0.0.1 GET /
+[2022-01-14@18:07:57] INFO ::ffff:127.0.0.1 200 /index.jshp.html
+[2022-01-14@18:08:01] INFO ::ffff:127.0.0.1 GET /redirect/f
+[2022-01-14@18:08:01] INFO ::ffff:127.0.0.1 200 /redirect/f.jshp.html
+[2022-01-14@18:08:19] INFO ::ffff:127.0.0.1 GET /redirect/f?url=https://github.com/OogleGlu
+[2022-01-14@18:08:20] INFO ::ffff:127.0.0.1 302 /redirect/f.jshp.html?url=https://github.com/OogleGlu
