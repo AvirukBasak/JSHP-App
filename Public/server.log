@@ -949,3 +949,55 @@
 [2022-01-15@14:42:08] INFO ::1 200 /giant.jshp.html
 [2022-01-15@14:42:16] INFO ::1 GET /
 [2022-01-15@14:42:16] INFO ::1 200 /index.jshp.html
+[2022-01-15@17:58:28] JSHP Server (0.0.0.0:8080) started
+[2022-01-15@17:59:17] INFO ::1 GET /
+[2022-01-15@17:59:18] ERROR ::1 500 /index.jshp.html
+    parser exited with 1
+[2022-01-15@17:59:18] INFO ::1 GET /favicon.ico
+[2022-01-15@17:59:19] ERROR ::1 404 /favicon.ico
+    Error: ENOENT: no such file or directory, lstat 'Public/favicon.ico'
+        at Object.lstatSync (node:fs:1516:3)
+        at Server.serverCallback (/data/data/com.termux/files/home/JSHP-App/node_modules/@oogleglu/jshp/dev/modules/server/server.ts:177:16)
+        at Server.emit (node:events:390:28)
+        at parserOnIncoming (node:_http_server:951:12)
+        at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+[2022-01-15@17:59:19] INFO ::1 404 /404.html
+[2022-01-15@17:59:50] INFO ::1 GET /
+[2022-01-15@17:59:51] INFO ::1 500 /index.jshp.html
+[2022-01-15@18:48:41] JSHP Server (0.0.0.0:8080) started
+[2022-01-15@18:48:57] INFO ::1 GET /
+[2022-01-15@18:48:57] INFO ::1 200 /index.jshp.html
+[2022-01-15@18:48:58] INFO ::1 GET /favicon.ico
+[2022-01-15@18:48:58] ERROR ::1 404 /favicon.ico
+    Error: ENOENT: no such file or directory, lstat 'Public/favicon.ico'
+        at Object.lstatSync (node:fs:1516:3)
+        at Server.serverCallback (/data/data/com.termux/files/home/JSHP-App/node_modules/@oogleglu/jshp/dev/modules/server/server.ts:177:16)
+        at Server.emit (node:events:390:28)
+        at parserOnIncoming (node:_http_server:951:12)
+        at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+[2022-01-15@18:48:58] INFO ::1 404 /404.html
+[2022-01-15@18:49:13] INFO ::1 GET /
+[2022-01-15@18:49:13] INFO ::1 200 /index.jshp.html
+[2022-01-15@18:49:27] INFO ::1 GET /
+[2022-01-15@18:49:28] INFO ::1 500 /index.jshp.html
+[2022-01-15@18:55:08] JSHP Server (0.0.0.0:8080) started
+[2022-01-15@18:55:11] INFO ::1 GET /
+[2022-01-15@18:55:11] INFO ::1 500 /index.jshp.html
+[2022-01-15@18:56:45] INFO ::1 GET /
+[2022-01-15@18:56:45] INFO ::1 500 /index.jshp.html
+[2022-01-15@19:44:44] JSHP Server (0.0.0.0:8080) started
+[2022-01-15@19:44:56] INFO ::1 GET /
+[2022-01-15@19:44:56] INFO ::1 500 /index.jshp.html
+[2022-01-15@19:44:57] INFO ::1 GET /favicon.ico
+[2022-01-15@19:44:57] ERROR ::1 404 /favicon.ico
+    Error: ENOENT: no such file or directory, lstat 'Public/favicon.ico'
+        at Object.lstatSync (node:fs:1516:3)
+        at Server.serverCallback (/data/data/com.termux/files/home/JSHP-App/node_modules/@oogleglu/jshp/dev/modules/server/server.ts:177:16)
+        at Server.emit (node:events:390:28)
+        at parserOnIncoming (node:_http_server:951:12)
+        at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+[2022-01-15@19:44:57] INFO ::1 404 /404.html
+[2022-01-15@19:45:13] INFO ::1 GET /
+[2022-01-15@19:45:14] INFO ::1 500 /index.jshp.html
+[2022-01-15@19:45:28] INFO ::1 GET /
+[2022-01-15@19:45:28] INFO ::1 200 /index.jshp.html
