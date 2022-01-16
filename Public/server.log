@@ -631,3 +631,96 @@
 [2022-01-16@12:28:07] INFO 127.0.0.1 GET /headers
 [2022-01-16@12:28:07] WARN 127.0.0.1 sources recompiled
 [2022-01-16@12:28:07] INFO 127.0.0.1 200 /headers.jshp.html
+[2022-01-16@12:57:05] JSHP Server (0.0.0.0:8080) started
+[2022-01-16@12:57:07] INFO 127.0.0.1 GET /
+[2022-01-16@12:57:08] INFO 127.0.0.1 200 /index.jshp.html
+[2022-01-16@12:57:08] INFO 127.0.0.1 404 /404.html
+[2022-01-16@12:57:08] INFO 127.0.0.1 GET /favicon.ico
+[2022-01-16@12:57:08] ERROR 127.0.0.1 404 /favicon.ico
+    Error: ENOENT: no such file or directory, lstat 'Public/favicon.ico'
+        at Object.lstatSync (node:fs:1516:3)
+        at Server.serverCallback (/data/data/com.termux/files/home/JSHP-App/node_modules/@oogleglu/jshp/dev/modules/server/server.ts:177:16)
+        at Server.emit (node:events:390:28)
+        at parserOnIncoming (node:_http_server:951:12)
+        at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+[2022-01-16@12:57:09] INFO 127.0.0.1 GET /config/
+[2022-01-16@12:57:09] INFO 127.0.0.1 500 /config/index.jshp.html
+[2022-01-16@12:58:48] INFO 127.0.0.1 GET /config/
+[2022-01-16@12:58:48] INFO 127.0.0.1 500 /config/index.jshp.html
+[2022-01-16@12:59:08] INFO 127.0.0.1 GET /config/
+[2022-01-16@12:59:09] INFO 127.0.0.1 200 /config/index.jshp.html
+[2022-01-16@12:59:19] INFO 127.0.0.1 GET /config/?act=reconf
+[2022-01-16@12:59:19] WARN 127.0.0.1 config data reloaded
+[2022-01-16@12:59:19] ERROR 127.0.0.1 500 /config/index.jshp.html?act=reconf
+    parser exited with 1
+[2022-01-16@12:59:56] INFO 127.0.0.1 GET /config/?act=reconf
+[2022-01-16@12:59:56] WARN 127.0.0.1 config data reloaded
+[2022-01-16@12:59:56] ERROR 127.0.0.1 500 /config/index.jshp.html?act=reconf
+    parser exited with 1
+[2022-01-16@13:01:06] INFO 127.0.0.1 GET /config/?act=reconf
+[2022-01-16@13:01:06] WARN 127.0.0.1 config data reloaded
+[2022-01-16@13:01:06] ERROR 127.0.0.1 500 /config/index.jshp.html?act=reconf
+    parser exited with 1
+[2022-01-16@13:02:08] INFO 127.0.0.1 GET /config/?act=reconf
+[2022-01-16@13:02:08] INFO 127.0.0.1 500 /config/index.jshp.html?act=reconf
+[2022-01-16@13:02:26] INFO 127.0.0.1 GET /config/?act=reconf
+[2022-01-16@13:02:27] WARN 127.0.0.1 config data reloaded
+[2022-01-16@13:02:27] ERROR 127.0.0.1 500 /config/index.jshp.html?act=reconf
+    parser exited with 1
+[2022-01-16@13:02:58] INFO 127.0.0.1 GET /config/?act=reconf
+[2022-01-16@13:02:59] WARN 127.0.0.1 config data reloaded
+[2022-01-16@13:02:59] ERROR 127.0.0.1 500 /config/index.jshp.html?act=reconf
+    parser exited with 1
+[2022-01-16@13:03:07] INFO 127.0.0.1 GET /config/?act=reconf
+[2022-01-16@13:03:07] WARN 127.0.0.1 config data reloaded
+[2022-01-16@13:03:07] ERROR 127.0.0.1 500 /config/index.jshp.html?act=reconf
+    parser exited with 1
+[2022-01-16@13:03:12] INFO 127.0.0.1 GET /config/
+[2022-01-16@13:03:12] INFO 127.0.0.1 200 /config/index.jshp.html
+[2022-01-16@13:03:37] INFO 127.0.0.1 GET /config/
+[2022-01-16@13:03:38] INFO 127.0.0.1 200 /config/index.jshp.html
+[2022-01-16@13:04:06] INFO 127.0.0.1 GET /config/?act=reconf
+[2022-01-16@13:04:06] WARN 127.0.0.1 config data reloaded
+[2022-01-16@13:04:06] ERROR 127.0.0.1 500 /config/index.jshp.html?act=reconf
+    parser exited with 1
+[2022-01-16@13:04:54] INFO 127.0.0.1 GET /config/?act=reconf
+[2022-01-16@13:04:54] WARN 127.0.0.1 config data reloaded
+[2022-01-16@13:04:54] INFO 127.0.0.1 200 /config/index.jshp.html?act=reconf
+[2022-01-16@13:04:54] INFO 127.0.0.1 GET /config/
+[2022-01-16@13:04:54] INFO 127.0.0.1 200 /config/index.jshp.html
+[2022-01-16@13:05:44] INFO 127.0.0.1 GET /config/?act=reconf
+[2022-01-16@13:05:45] WARN 127.0.0.1 config data reloaded
+[2022-01-16@13:05:45] INFO 127.0.0.1 200 /config/index.jshp.html?act=reconf
+[2022-01-16@13:05:45] INFO 127.0.0.1 GET /config/
+[2022-01-16@13:05:45] INFO 127.0.0.1 200 /config/index.jshp.html
+[2022-01-16@13:06:38] INFO 127.0.0.1 GET /config/?act=recomp
+[2022-01-16@13:06:39] WARN 127.0.0.1 sources recompiled
+[2022-01-16@13:06:39] ERROR 127.0.0.1 500 /config/index.jshp.html?act=recomp
+    parser exited with 1
+[2022-01-16@13:06:39] INFO 127.0.0.1 GET /config/
+[2022-01-16@13:06:39] INFO 127.0.0.1 200 /config/index.jshp.html
+[2022-01-16@13:08:13] INFO 127.0.0.1 GET /config/
+[2022-01-16@13:08:13] INFO 127.0.0.1 200 /config/index.jshp.html
+[2022-01-16@13:08:23] INFO 127.0.0.1 GET /config/?act=recomp
+[2022-01-16@13:08:23] WARN 127.0.0.1 sources recompiled
+[2022-01-16@13:08:23] ERROR 127.0.0.1 500 /config/index.jshp.html?act=recomp
+    parser exited with 1
+[2022-01-16@13:09:36] JSHP Server (0.0.0.0:8080) started
+[2022-01-16@13:09:57] INFO 127.0.0.1 GET /config/?act=3994
+[2022-01-16@13:09:57] WARN 127.0.0.1 /config/ invalid act: 3994
+[2022-01-16@13:09:57] INFO 127.0.0.1 200 /config/index.jshp.html?act=3994
+[2022-01-16@13:09:58] INFO 127.0.0.1 GET /favicon.ico
+[2022-01-16@13:09:58] ERROR 127.0.0.1 404 /favicon.ico
+    Error: ENOENT: no such file or directory, lstat 'Public/favicon.ico'
+        at Object.lstatSync (node:fs:1516:3)
+        at Server.serverCallback (/data/data/com.termux/files/home/JSHP-App/node_modules/@oogleglu/jshp/dev/modules/server/server.ts:177:16)
+        at Server.emit (node:events:390:28)
+        at parserOnIncoming (node:_http_server:951:12)
+        at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+[2022-01-16@13:09:58] INFO 127.0.0.1 404 /404.html
+[2022-01-16@13:10:27] INFO 127.0.0.1 GET /config/?act=3994
+[2022-01-16@13:10:28] INFO 127.0.0.1 200 /config/index.jshp.html?act=3994
+[2022-01-16@13:10:57] INFO 127.0.0.1 GET /config/?act=3994
+[2022-01-16@13:10:57] INFO 127.0.0.1 200 /config/index.jshp.html?act=3994
+[2022-01-16@13:11:19] INFO 127.0.0.1 GET /config/?act=3994
+[2022-01-16@13:11:19] INFO 127.0.0.1 200 /config/index.jshp.html?act=3994

@@ -13,7 +13,7 @@
 </head>
 <body>
 
-   `); 
+   `) ; ; ; ; ; 
         let url;
         if ($_GET['url'] && !Array.isArray($_GET['url'])) {
             setStatusCode(302);
@@ -24,19 +24,19 @@
                 url.push(encodeURIComponent(item));
             });
         }
-    ; echo(`
+    ;  echo(`
 
     <h2 id="heading"></h2>
     <p>
         Use ?url= for open redirections demo. If ?url is polluted, no redirection will happen.
     </p>
-    `); 
+    `) ; ; ; ; ; 
         if (url && Array.isArray(url)) {
             echo('<p><b>URLs: </b>');
             const str = url.join('\n');
             Message.echo(str);
         }
-    ; echo(`
+    ;  echo(`
     </p>
 
     <!-- normal browser script -->

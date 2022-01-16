@@ -25,20 +25,26 @@
             switch ($_GET['act']) {
                 case 'reconf': {
                     Server.reloadConfig();
-                    ?> <script>
-                        location.href = `${location.origin}${location.pathname}`;
-                    </script> <?jshp
+                    // as of now, this block will cause an error
+                    if (Number(await getStatusCode()) === 200) { ?>
+                        <script>
+                            location.href = `${location.origin}${location.pathname}`;
+                        </script>
+                    <?jshp }
                     break;
                 }
                 case 'recomp': {
                     Server.recompile();
-                    ?> <script>
-                        location.href = `${location.origin}${location.pathname}`;
-                    </script> <?jshp
+                    // so will this block
+                    if (Number(await getStatusCode()) === 200) { ?>
+                        <script>
+                            location.href = `${location.origin}${location.pathname}`;
+                        </script>
+                    <?jshp }
                     break;
                 }
                 default: {
-                    Logger.warn('/config/ invalid act: ' + $_GET['act']);
+                    Message.echo('/config/ invalid act: ' + $_GET['act'], 'orange');
                     break;
                 }
             }

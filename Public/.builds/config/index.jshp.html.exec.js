@@ -20,25 +20,31 @@
         document.getElementById('heading').innerHTML = \x60\x24{heading}\x60;
     </script>
 
-    `); 
+    `); ; ; 
         if ($_GET['act'] && !Array.isArray($_GET['act']))
             switch ($_GET['act']) {
                 case 'reconf': {
                     Server.reloadConfig();
-                    ; echo(` <script>
-                        location.href = \x60\x24{location.origin}\x24{location.pathname}\x60;
-                    </script> `); 
+                    // as of now, this block will cause an error
+                    if (Number(await getStatusCode()) === 200) { ; echo(`
+                        <script>
+                            location.href = \x60\x24{location.origin}\x24{location.pathname}\x60;
+                        </script>
+                    `); ; ;  }
                     break;
                 }
                 case 'recomp': {
                     Server.recompile();
-                    ; echo(` <script>
-                        location.href = \x60\x24{location.origin}\x24{location.pathname}\x60;
-                    </script> `); 
+                    // so will this block
+                    if (Number(await getStatusCode()) === 200) { ; echo(`
+                        <script>
+                            location.href = \x60\x24{location.origin}\x24{location.pathname}\x60;
+                        </script>
+                    `); ; ;  }
                     break;
                 }
                 default: {
-                    Logger.warn('/config/ invalid act: ' + $_GET['act']);
+                    Message.echo('/config/ invalid act: ' + $_GET['act'], 'orange');
                     break;
                 }
             }

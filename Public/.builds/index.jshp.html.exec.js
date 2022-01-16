@@ -12,10 +12,10 @@
 </head>
 <body>
 
-    `); 
+    `) ; ; ; ; ; 
         const NAME = $_GET['name'] || 'None';
         const UID = $_GET['uid'] || 'None';
-    ; echo(`
+    ;  echo(`
 
     <h1 id="heading"></h1>
     <h4 id="remoteAddress">Remote Address is `); echo(`${ $_REQUEST['remoteAddress'] }`); echo(` </h4>

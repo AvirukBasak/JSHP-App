@@ -13,13 +13,13 @@
 <body>
 
     <h2 id="heading"></h2>
-    `); 
+    `) ; ; ; ; ; 
         Message.echo(
             JSON.stringify($_HEADERS, null, 4)
                 .replace(/\\\"/g, '%SL%DQ')
                 .replace(/\"/g, '')
                 .replace(/%SL%DQ/g, '"'), 'teal');
-    ; echo(`
+    ;  echo(`
 
     <!-- normal browser script -->
     <script>

@@ -1,3 +1,3 @@
-(async function() { echo(``); 
+(async function() { echo(``) ; ; ; ; ; 
     nodejsinfo();
-; echo(``); })();
+;  echo(``); })();
