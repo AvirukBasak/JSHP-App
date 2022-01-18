@@ -20,7 +20,7 @@
         document.getElementById('heading').innerHTML = \x60\x24{heading}\x60;
     </script>
 
-    `); 
+    `); ; ; 
         if ($_GET['act'] && !Array.isArray($_GET['act']))
             switch ($_GET['act']) {
                 case 'reconf': {
