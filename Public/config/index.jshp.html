@@ -44,7 +44,7 @@
                     break;
                 }
                 default: {
-                    Message.echo('/config/ invalid act: ' + $_GET['act'], 'orange');
+                    Message.warn('/config/ invalid act: ' + $_GET['act']);
                     break;
                 }
             }
