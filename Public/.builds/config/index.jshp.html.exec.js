@@ -20,27 +20,27 @@
         document.getElementById('heading').innerHTML = \x60\x24{heading}\x60;
     </script>
 
-    `); ; ; 
+    `); 
         if ($_GET['act'] && !Array.isArray($_GET['act']))
             switch ($_GET['act']) {
                 case 'reconf': {
-                    Server.reloadConfig();
-                    // as of now, this block will cause an error
-                    if (Number(await getStatusCode()) === 200) { ; echo(`
+                    await Server.reloadConfig();
+                    if (Number(await getStatusCode()) === 200)
+                    { ; echo(`
                         <script>
                             location.href = \x60\x24{location.origin}\x24{location.pathname}\x60;
                         </script>
-                    `); ; ;  }
+                    `);  }
                     break;
                 }
                 case 'recomp': {
-                    Server.recompile();
-                    // so will this block
-                    if (Number(await getStatusCode()) === 200) { ; echo(`
+                    await Server.recompile();
+                    if (Number(await getStatusCode()) === 200)
+                    { ; echo(`
                         <script>
                             location.href = \x60\x24{location.origin}\x24{location.pathname}\x60;
                         </script>
-                    `); ; ;  }
+                    `);  }
                     break;
                 }
                 default: {
