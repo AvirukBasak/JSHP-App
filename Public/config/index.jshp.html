@@ -25,7 +25,7 @@
             switch ($_GET['act']) {
                 case 'reconf': {
                     await Server.reloadConfig();
-                    if (Number(await getStatusCode()) === 200)
+                    if (await getStatusCode() === 200)
                     { ?>
                         <script>
                             location.href = `${location.origin}${location.pathname}`;
@@ -35,7 +35,7 @@
                 }
                 case 'recomp': {
                     await Server.recompile();
-                    if (Number(await getStatusCode()) === 200)
+                    if (await getStatusCode() === 200)
                     { ?>
                         <script>
                             location.href = `${location.origin}${location.pathname}`;
