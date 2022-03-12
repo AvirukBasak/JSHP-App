@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/OogleGlu/JSHP-App.git"
+    "url": "git+https://github.com/AvirukBasak/JSHP-App.git"
   },
   "author": "OogleGlu",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/OogleGlu/JSHP-App/issues"
+    "url": "https://github.com/AvirukBasak/JSHP-App/issues"
   },
-  "homepage": "https://github.com/OogleGlu/JSHP-App#readme",
+  "homepage": "https://github.com/AvirukBasak/JSHP-App#readme",
   "dependencies": {
-    "@oogleglu/jshp": "^1.4.2"
+    "@aviruk/jshp": "^0.0.1"
   }
 }
