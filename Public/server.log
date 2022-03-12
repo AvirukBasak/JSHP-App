@@ -25,3 +25,4 @@
 [2022-03-05@23:10:44] INFO 127.0.0.1 200 /index.jshp.html
 [2022-03-05@23:10:45] INFO 127.0.0.1 GET /config/
 [2022-03-05@23:10:45] INFO 127.0.0.1 200 /config/index.jshp.html
+[2022-03-12@23:40:27] JSHP Server (0.0.0.0:8080) started
