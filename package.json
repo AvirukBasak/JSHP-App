@@ -19,6 +19,6 @@
   },
   "homepage": "https://github.com/AvirukBasak/JSHP-App#readme",
   "dependencies": {
-    "@aviruk/jshp": "^0.0.1"
+    "@aviruk/jshp": "^0.0.2"
   }
 }
