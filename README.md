@@ -1,14 +1,14 @@
 # JSHP-App
-A [JSHP](https://github.com/OogleGlu/JSHP) demo app made with Heroku.
+A [JSHP](https://github.com/AvirukBasak/JSHP) demo app made with Heroku.
 
 <!--
 ### Opponent
-Visit [PHP-App](https://github.com/OogleGlu/PHP-App) to explore.
+Visit [PHP-App](https://github.com/AvirukBasak/PHP-App) to explore.
 
 ### Files of concern
-- [index.php](https://github.com/OogleGlu/PHP-App/blob/main/Public/index.php)
-- [index.jshp.html](https://github.com/OogleGlu/JSHP-App/blob/main/Public/index.jshp.html)
-- [gclcm.html](https://github.com/OogleGlu/JSHP-App/blob/main/Public/gclcm.html)
+- [index.php](https://github.com/AvirukBasak/PHP-App/blob/main/Public/index.php)
+- [index.jshp.html](https://github.com/AvirukBasak/JSHP-App/blob/main/Public/index.jshp.html)
+- [gclcm.html](https://github.com/AvirukBasak/JSHP-App/blob/main/Public/gclcm.html)
 
 
 ### Results
