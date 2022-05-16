@@ -1,4 +1,4 @@
-# JSHP-App
+# JSHP App
 A [JSHP](https://github.com/AvirukBasak/JSHP) demo app made with Heroku.
 
 <!--
