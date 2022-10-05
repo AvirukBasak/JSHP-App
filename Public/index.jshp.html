@@ -18,7 +18,11 @@
     </script>
 
     <h1 id="heading"></h1>
-    <h4 id="remoteAddress">Remote Address is <?( $_REQUEST['remoteAddress'] )?> </h4>
+    <script jshp>
+        const addr = prequire('js:config/remoteaddr');
+        const remoteAddr = addr.getRemoteAddr();
+    </script>
+    <h4 id="remoteAddress">Remote Address is <?( remoteAddr )?> </h4>
     <p>
         <h3>Paths in this domain</h3>
         <ul>

@@ -26,3 +26,15 @@
 [2022-03-05@23:10:45] INFO 127.0.0.1 GET /config/
 [2022-03-05@23:10:45] INFO 127.0.0.1 200 /config/index.jshp.html
 [2022-03-12@23:40:27] JSHP Server (0.0.0.0:8080) started
+[2022-10-05@20:00:37] JSHP Server (0.0.0.0:8080) started
+[2022-10-05@20:00:39] INFO 127.0.0.1 GET /
+[2022-10-05@20:00:39] INFO 127.0.0.1 200 /index.jshp.html
+[2022-10-05@20:00:40] INFO 127.0.0.1 GET /favicon.ico
+[2022-10-05@20:00:40] ERROR 127.0.0.1 404 /favicon.ico
+    Error: ENOENT: no such file or directory, lstat 'Public/favicon.ico'
+        at Object.lstatSync (node:fs:1574:3)
+        at Server.serverCallback (/data/data/com.termux/files/home/git/jshp-app/node_modules/@aviruk/jshp/src/modules/server/server.ts:175:16)
+        at Server.emit (node:events:513:28)
+        at parserOnIncoming (node:_http_server:1013:12)
+        at HTTPParser.parserOnHeadersComplete (node:_http_common:117:17)
+[2022-10-05@20:00:40] INFO 127.0.0.1 404 /404.html
