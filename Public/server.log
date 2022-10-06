@@ -902,3 +902,65 @@
         at parserOnIncoming (node:_http_server:1013:12)
         at HTTPParser.parserOnHeadersComplete (node:_http_common:117:17)
 [2022-10-06@13:24:22] INFO 127.0.0.1 404 /404.html
+[2022-10-06@13:52:38] JSHP Server (0.0.0.0:8080) started
+[2022-10-06@13:52:53] INFO 127.0.0.1 GET /
+[2022-10-06@13:52:53] INFO 127.0.0.1 200 /index.jshp.html
+[2022-10-06@13:52:53] INFO 127.0.0.1 GET /favicon.ico
+[2022-10-06@13:52:53] ERROR 127.0.0.1 404 /favicon.ico
+    Error: ENOENT: no such file or directory, lstat 'Public/favicon.ico'
+        at Object.lstatSync (node:fs:1574:3)
+        at Server.serverCallback (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/src/modules/server/server.ts:175:16)
+        at Server.emit (node:events:513:28)
+        at parserOnIncoming (node:_http_server:1013:12)
+        at HTTPParser.parserOnHeadersComplete (node:_http_common:117:17)
+[2022-10-06@13:52:54] INFO 127.0.0.1 404 /404.html
+[2022-10-06@13:52:57] INFO 127.0.0.1 GET /headers
+[2022-10-06@13:52:57] INFO 127.0.0.1 200 /headers.jshp.html
+[2022-10-06@13:55:15] JSHP Server (0.0.0.0:8080) started
+[2022-10-06@13:55:18] INFO 127.0.0.1 GET /
+[2022-10-06@13:55:18] WARN 127.0.0.1 runner: recompiled Public/index.jshp.html
+[2022-10-06@13:55:18] INFO 127.0.0.1 200 /index.jshp.html
+[2022-10-06@13:56:57] INFO 127.0.0.1 GET /
+[2022-10-06@13:56:57] WARN 127.0.0.1 runner: recompiled Public/index.jshp.html
+[2022-10-06@13:56:57] ERROR 127.0.0.1 500 /index.jshp.html
+    runner: jshp file error
+    Error: Cannot find module './config/remoteaddr.js'
+    Require stack:
+    - /data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js
+        at Module._resolveFilename (node:internal/modules/cjs/loader:956:15)
+        at Module._load (node:internal/modules/cjs/loader:804:27)
+        at Module.require (node:internal/modules/cjs/loader:1022:19)
+        at require (node:internal/modules/cjs/helpers:102:18)
+        at prequire (jshp:exec:601:16)
+        at Public/index.jshp.html (<anonymous>:20:22)
+        at prequire (jshp:exec:552:13)
+        at <anonymous> (jshp:exec:637:9)
+        at Generator.next (<anonymous>)
+[2022-10-06@13:56:57] ERROR 127.0.0.1 500 /index.jshp.html
+    parser exited with 1
+[2022-10-06@14:03:08] JSHP Server (0.0.0.0:8080) started
+[2022-10-06@14:03:11] INFO 127.0.0.1 GET /
+[2022-10-06@14:03:11] WARN 127.0.0.1 runner: recompiled Public/index.jshp.html
+[2022-10-06@14:03:11] INFO 127.0.0.1 200 /index.jshp.html
+[2022-10-06@14:03:25] INFO 127.0.0.1 GET /
+[2022-10-06@14:03:25] WARN 127.0.0.1 runner: recompiled Public/index.jshp.html
+[2022-10-06@14:03:25] ERROR 127.0.0.1 500 /index.jshp.html
+    runner: jshp file error
+    Error: Cannot find module './config/remoteaddr.js'
+    Require stack:
+        at jshp:exec
+        at Module._resolveFilename (node:internal/modules/cjs/loader:956:15)
+        at Module._load (node:internal/modules/cjs/loader:804:27)
+        at Module.require (node:internal/modules/cjs/loader:1022:19)
+        at require (node:internal/modules/cjs/helpers:102:18)
+        at prequire (jshp:exec:601:16)
+        at Public/index.jshp.html (<anonymous>:20:22)
+        at prequire (jshp:exec:552:13)
+        at <anonymous> (jshp:exec:637:9)
+        at Generator.next (<anonymous>)
+[2022-10-06@14:03:25] ERROR 127.0.0.1 500 /index.jshp.html
+    parser exited with 1
+[2022-10-06@14:04:37] JSHP Server (0.0.0.0:8080) started
+[2022-10-06@14:04:41] INFO 127.0.0.1 GET /
+[2022-10-06@14:04:41] WARN 127.0.0.1 runner: recompiled Public/index.jshp.html
+[2022-10-06@14:04:41] INFO 127.0.0.1 200 /index.jshp.html

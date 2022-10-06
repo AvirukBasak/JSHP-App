@@ -1,9 +1,0 @@
-[2022-10-05@19:58:50] JSHP Server (0.0.0.0:8080) started
-[2022-10-05@19:59:03] INFO 127.0.0.1 GET /
-[2022-10-05@19:59:03] ERROR 127.0.0.1 404 /index.jshp.html
-    Error: ENOENT: no such file or directory, lstat 'jshp-app/index.jshp.html'
-        at Object.lstatSync (node:fs:1574:3)
-        at Server.serverCallback (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/src/modules/server/server.ts:175:16)
-        at Server.emit (node:events:513:28)
-        at parserOnIncoming (node:_http_server:1013:12)
-        at HTTPParser.parserOnHeadersComplete (node:_http_common:117:17)

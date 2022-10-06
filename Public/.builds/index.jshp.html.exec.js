@@ -17,7 +17,7 @@ const Public$SLASH$index$DOT$jshp$DOT$html = async function() { echo(`<!DOCTYPE 
     ;  echo(`
     <h1 id="heading"></h1>
     `) ; ; ; ; ; 
-        const addr = prequire('js:config/remoteaddr');
+        const addr = prequire('/config/remoteaddr.js');
         const remoteAddr = addr.getRemoteAddr();
     ;  echo(`
     <h4 id="remoteAddress">Remote Address is `); echo(`${ remoteAddr }`); echo(` </h4>
