@@ -798,3 +798,69 @@
 [2022-10-06@12:40:51] INFO 127.0.0.1 200 /headers.jshp.html
 [2022-10-06@12:41:29] INFO 127.0.0.1 GET /headers
 [2022-10-06@12:41:29] INFO 127.0.0.1 200 /headers.jshp.html
+[2022-10-06@12:46:59] JSHP Server (0.0.0.0:8080) started
+[2022-10-06@12:47:01] INFO 127.0.0.1 GET /headers
+[2022-10-06@12:47:01] INFO 127.0.0.1 200 /headers.jshp.html
+[2022-10-06@12:47:03] INFO 127.0.0.1 GET /headers
+[2022-10-06@12:47:03] INFO 127.0.0.1 200 /headers.jshp.html
+[2022-10-06@12:47:10] JSHP Server (0.0.0.0:8080) started
+[2022-10-06@12:47:12] INFO 127.0.0.1 GET /headers
+[2022-10-06@12:47:13] WARN 127.0.0.1 runner: recompiled Public/headers.jshp.html
+[2022-10-06@12:47:13] WARN 127.0.0.1 fallback compile: fallback to /headers.jshp.html
+[2022-10-06@12:47:13] WARN 127.0.0.1 runner: recompiled Public/headers/index.jshp.html
+[2022-10-06@12:47:13] WARN 127.0.0.1 fallback compile: fallback to /headers/index.jshp.html
+[2022-10-06@12:47:13] INFO 127.0.0.1 200 /headers.jshp.html
+[2022-10-06@12:47:14] INFO 127.0.0.1 GET /headers
+[2022-10-06@12:47:15] INFO 127.0.0.1 200 /headers.jshp.html
+[2022-10-06@12:47:26] INFO 127.0.0.1 GET /logs/
+[2022-10-06@12:47:27] WARN 127.0.0.1 runner: recompiled Public/logs/index.jshp.html
+[2022-10-06@12:47:27] WARN 127.0.0.1 fallback compile: fallback to /logs/index.jshp.html
+[2022-10-06@12:47:27] INFO 127.0.0.1 200 /logs/index.jshp.html
+[2022-10-06@12:47:28] INFO 127.0.0.1 GET /config/
+[2022-10-06@12:47:28] WARN 127.0.0.1 runner: recompiled Public/config/index.jshp.html
+[2022-10-06@12:47:28] WARN 127.0.0.1 fallback compile: fallback to /config/index.jshp.html
+[2022-10-06@12:47:28] INFO 127.0.0.1 200 /config/index.jshp.html
+[2022-10-06@12:47:35] INFO 127.0.0.1 GET /rwt2
+[2022-10-06@12:47:36] INFO 127.0.0.1 200 /logs/index.jshp.html
+[2022-10-06@12:47:38] INFO 127.0.0.1 GET /rwt1
+[2022-10-06@12:47:39] INFO 127.0.0.1 200 /config/index.jshp.html
+[2022-10-06@12:47:40] INFO 127.0.0.1 GET /config/
+[2022-10-06@12:47:40] INFO 127.0.0.1 200 /config/index.jshp.html
+[2022-10-06@12:47:45] INFO 127.0.0.1 GET /logs/
+[2022-10-06@12:47:45] INFO 127.0.0.1 200 /logs/index.jshp.html
+[2022-10-06@12:50:03] INFO 127.0.0.1 GET /test
+[2022-10-06@12:50:03] INFO 127.0.0.1 302 javascript:alert(document.cookie);
+[2022-10-06@12:50:08] INFO 127.0.0.1 GET /test/
+[2022-10-06@12:50:08] ERROR 127.0.0.1 404 /test/index.jshp.html
+    Error: ENOENT: no such file or directory, lstat 'Public/test/index.jshp.html'
+        at Object.lstatSync (node:fs:1574:3)
+        at Server.serverCallback (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/src/modules/server/server.ts:175:16)
+        at Server.emit (node:events:513:28)
+        at parserOnIncoming (node:_http_server:1013:12)
+        at HTTPParser.parserOnHeadersComplete (node:_http_common:117:17)
+[2022-10-06@12:50:08] INFO 127.0.0.1 404 /404.html
+[2022-10-06@12:50:08] INFO 127.0.0.1 GET /favicon.ico
+[2022-10-06@12:50:08] ERROR 127.0.0.1 404 /favicon.ico
+    Error: ENOENT: no such file or directory, lstat 'Public/favicon.ico'
+        at Object.lstatSync (node:fs:1574:3)
+        at Server.serverCallback (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/src/modules/server/server.ts:175:16)
+        at Server.emit (node:events:513:28)
+        at parserOnIncoming (node:_http_server:1013:12)
+        at HTTPParser.parserOnHeadersComplete (node:_http_common:117:17)
+[2022-10-06@12:50:08] INFO 127.0.0.1 404 /404.html
+[2022-10-06@12:56:29] JSHP Server (0.0.0.0:8080) started
+[2022-10-06@12:56:32] INFO 127.0.0.1 GET /
+[2022-10-06@12:56:32] WARN 127.0.0.1 runner: recompiled Public/index.jshp.html
+[2022-10-06@12:56:32] WARN 127.0.0.1 fallback compile: fallback to /index.jshp.html
+[2022-10-06@12:56:32] INFO 127.0.0.1 200 /index.jshp.html
+[2022-10-06@12:56:32] INFO 127.0.0.1 GET /favicon.ico
+[2022-10-06@12:56:32] ERROR 127.0.0.1 404 /favicon.ico
+    Error: ENOENT: no such file or directory, lstat 'Public/favicon.ico'
+        at Object.lstatSync (node:fs:1574:3)
+        at Server.serverCallback (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/src/modules/server/server.ts:175:16)
+        at Server.emit (node:events:513:28)
+        at parserOnIncoming (node:_http_server:1013:12)
+        at HTTPParser.parserOnHeadersComplete (node:_http_common:117:17)
+[2022-10-06@12:56:32] INFO 127.0.0.1 404 /404.html
+[2022-10-06@12:56:34] INFO 127.0.0.1 GET /headers
+[2022-10-06@12:56:34] INFO 127.0.0.1 200 /headers.jshp.html

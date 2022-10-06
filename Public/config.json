@@ -8,7 +8,7 @@
     "redirects": [
         {
             "req": "/github",
-            "src": "https://github.com/OogleGlu/JSHP-App",
+            "src": "https://github.com/AvirukBasak/jshp-app",
             "status": 301
         },
         {
