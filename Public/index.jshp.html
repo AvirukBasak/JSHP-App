@@ -11,18 +11,16 @@
     </style>
 </head>
 <body>
-
     <script jshp>
         const NAME = $_GET['name'] || 'None';
         const UID = $_GET['uid'] || 'None';
     </script>
-
     <h1 id="heading"></h1>
     <script jshp>
         const addr = prequire('js:config/remoteaddr');
         const remoteAddr = addr.getRemoteAddr();
     </script>
-    <h4 id="remoteAddress">Remote Address is <?( $_REQUEST['REMOTE_ADDRESS'] )?> </h4>
+    <h4 id="remoteAddress">Remote Address is <?( remoteAddr )?> </h4>
     <p>
         <h3>Paths in this domain</h3>
         <ul>
@@ -45,15 +43,12 @@
     <p>
         Polluting parameters will display an array.
     </p>
-
     <p><b>Names: </b><?( NAME )?></p>
     <p><b>UIDs: </b><?( UID )?></p>
-
     <!-- normal browser script -->
     <script>
         const heading = 'JSHP Demo App';
         document.getElementById('heading').innerHTML = `${heading}`;
     </script>
-
 </body>
 </html>
