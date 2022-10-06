@@ -11,12 +11,10 @@ const Public$SLASH$index$DOT$jshp$DOT$html = async function() { echo(`<!DOCTYPE 
     </style>
 </head>
 <body>
-
     `) ; ; ; ; ; 
         const NAME = $_GET['name'] || 'None';
         const UID = $_GET['uid'] || 'None';
     ;  echo(`
-
     <h1 id="heading"></h1>
     `) ; ; ; ; ; 
         const addr = prequire('js:config/remoteaddr');
@@ -45,15 +43,12 @@ const Public$SLASH$index$DOT$jshp$DOT$html = async function() { echo(`<!DOCTYPE 
     <p>
         Polluting parameters will display an array.
     </p>
-
     <p><b>Names: </b>`); echo(`${ NAME }`); echo(`</p>
     <p><b>UIDs: </b>`); echo(`${ UID }`); echo(`</p>
-
     <!-- normal browser script -->
     <script>
         const heading = 'JSHP Demo App';
         document.getElementById('heading').innerHTML = \x60\x24{heading}\x60;
     </script>
-
 </body>
 </html>`); }; Public$SLASH$index$DOT$jshp$DOT$html();
