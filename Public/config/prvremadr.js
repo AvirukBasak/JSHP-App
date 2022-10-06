@@ -1,1 +1,1 @@
-exports.adr = () => $_REQUEST['REMOTE_ADDRESS'];
+exports.adr = () => $_SERVER['REMOTE_ADDRESS'];
