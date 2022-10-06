@@ -3,6 +3,7 @@
         ".jshp.html",
         ".html"
     ],
+    "hotCompile": false,
     "trailingSlashes": true,
     "redirects": [
         {

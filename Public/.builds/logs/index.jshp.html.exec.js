@@ -1,4 +1,4 @@
-(async function() { echo(`<!DOCTYPE html>
+const Public$SLASH$logs$SLASH$index$DOT$jshp$DOT$html = async function() { echo(`<!DOCTYPE html>
 <html>
 <head>
     <meta name="viewport" content="width=device-width, height=device-height">
@@ -16,7 +16,7 @@
 
     <!-- jshp script -->
     `) ; ; ; ; ; 
-        const data = await FS.promises.readFile($_RES_ROOT + '/server.log', 'utf8');
+        const data = FS.readFileSync($_RES_ROOT + '/server.log', 'utf8');
         Message.echo(String(data), 'purple');
     ;  echo(`
 
@@ -27,4 +27,4 @@
     </script>
 
 </body>
-</html>`); })();
+</html>`); }; Public$SLASH$logs$SLASH$index$DOT$jshp$DOT$html();

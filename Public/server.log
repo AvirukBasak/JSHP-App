@@ -38,3 +38,763 @@
         at parserOnIncoming (node:_http_server:1013:12)
         at HTTPParser.parserOnHeadersComplete (node:_http_common:117:17)
 [2022-10-05@20:00:40] INFO 127.0.0.1 404 /404.html
+[2022-10-06@00:31:25] JSHP Server (0.0.0.0:8080) started
+[2022-10-06@00:31:49] INFO 127.0.0.1 GET /
+[2022-10-06@00:31:49] INFO 127.0.0.1 200 /index.jshp.html
+[2022-10-06@00:31:49] INFO 127.0.0.1 GET /favicon.ico
+[2022-10-06@00:31:49] ERROR 127.0.0.1 404 /favicon.ico
+    Error: ENOENT: no such file or directory, lstat 'Public/favicon.ico'
+        at Object.lstatSync (node:fs:1574:3)
+        at Server.serverCallback (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/src/modules/server/server.ts:175:16)
+        at Server.emit (node:events:513:28)
+        at parserOnIncoming (node:_http_server:1013:12)
+        at HTTPParser.parserOnHeadersComplete (node:_http_common:117:17)
+[2022-10-06@00:31:49] INFO 127.0.0.1 404 /404.html
+[2022-10-06@00:33:22] JSHP Server (0.0.0.0:8080) started
+[2022-10-06@00:34:18] INFO 127.0.0.1 GET /
+[2022-10-06@00:34:18] INFO 127.0.0.1 200 /index.jshp.html
+[2022-10-06@00:34:19] INFO 127.0.0.1 GET /headers
+[2022-10-06@00:34:20] INFO 127.0.0.1 200 /headers.jshp.html
+[2022-10-06@00:34:42] INFO 127.0.0.1 GET /headers
+[2022-10-06@00:34:42] INFO 127.0.0.1 200 /headers.jshp.html
+[2022-10-06@00:34:44] INFO 127.0.0.1 GET /headers
+[2022-10-06@00:34:44] INFO 127.0.0.1 200 /headers.jshp.html
+[2022-10-06@00:35:03] INFO 127.0.0.1 GET /headers
+[2022-10-06@00:35:03] INFO 127.0.0.1 200 /headers.jshp.html
+[2022-10-06@00:35:31] INFO 127.0.0.1 GET /headers
+[2022-10-06@00:35:32] INFO 127.0.0.1 200 /headers.jshp.html
+[2022-10-06@00:36:52] INFO 127.0.0.1 GET /config/?act=reconf
+[2022-10-06@00:36:52] ERROR 127.0.0.1 500 /config/index.jshp.html?act=reconf
+    runner: Server.reloadConfig: reload failed
+    config: error in config.json
+        SyntaxError: Unexpected token ' in JSON at position 72
+    fallback to previous config data
+[2022-10-06@00:36:52] INFO 127.0.0.1 500 /config/index.jshp.html?act=reconf
+[2022-10-06@00:37:10] INFO 127.0.0.1 GET /config/?act=reconf
+[2022-10-06@00:37:10] WARN 127.0.0.1 runner: config data reloaded
+[2022-10-06@00:37:10] INFO 127.0.0.1 200 /config/index.jshp.html?act=reconf
+[2022-10-06@00:37:10] INFO 127.0.0.1 GET /config/
+[2022-10-06@00:37:10] WARN 127.0.0.1 runner: recompiled Public/config/index.jshp.html
+[2022-10-06@00:37:10] INFO 127.0.0.1 200 /config/index.jshp.html
+[2022-10-06@00:37:13] INFO 127.0.0.1 GET /config/
+[2022-10-06@00:37:13] WARN 127.0.0.1 runner: recompiled Public/config/index.jshp.html
+[2022-10-06@00:37:13] INFO 127.0.0.1 200 /config/index.jshp.html
+[2022-10-06@00:37:36] INFO 127.0.0.1 GET /config
+[2022-10-06@00:37:36] ERROR 127.0.0.1 400 /config
+    path is a directory
+[2022-10-06@00:37:45] INFO 127.0.0.1 GET /
+[2022-10-06@00:37:45] WARN 127.0.0.1 runner: recompiled Public/index.jshp.html
+[2022-10-06@00:37:45] INFO 127.0.0.1 200 /index.jshp.html
+[2022-10-06@00:38:58] JSHP Server (0.0.0.0:8080) started
+[2022-10-06@00:39:02] INFO 127.0.0.1 GET /
+[2022-10-06@00:39:02] WARN 127.0.0.1 runner: recompiled Public/index.jshp.html
+[2022-10-06@00:39:02] INFO 127.0.0.1 200 /index.jshp.html
+[2022-10-06@00:47:00] JSHP Server (0.0.0.0:8080) started
+[2022-10-06@00:47:02] INFO 127.0.0.1 GET /
+[2022-10-06@00:47:02] WARN 127.0.0.1 fallback to /index.jshp.html
+[2022-10-06@00:47:02] WARN 127.0.0.1 runner: recompiled Public/index.jshp.html
+[2022-10-06@00:47:02] INFO 127.0.0.1 500 /index.jshp.html
+[2022-10-06@00:47:15] INFO 127.0.0.1 GET /
+[2022-10-06@00:47:15] WARN 127.0.0.1 fallback to /index.jshp.html
+[2022-10-06@00:47:15] WARN 127.0.0.1 runner: recompiled Public/index.jshp.html
+[2022-10-06@00:47:15] INFO 127.0.0.1 500 /index.jshp.html
+[2022-10-06@00:47:26] JSHP Server (0.0.0.0:8080) started
+[2022-10-06@00:47:28] INFO 127.0.0.1 GET /
+[2022-10-06@00:47:28] WARN 127.0.0.1 fallback to /index.jshp.html
+[2022-10-06@00:47:28] WARN 127.0.0.1 runner: recompiled Public/index.jshp.html
+[2022-10-06@00:47:28] INFO 127.0.0.1 500 /index.jshp.html
+[2022-10-06@00:50:05] JSHP Server (0.0.0.0:8080) started
+[2022-10-06@00:50:07] INFO 127.0.0.1 GET /
+[2022-10-06@00:50:07] WARN 127.0.0.1 runner: recompiled Public/index.jshp.html
+[2022-10-06@00:50:07] WARN 127.0.0.1 fallback to /index.jshp.html
+[2022-10-06@00:50:07] INFO 127.0.0.1 500 /index.jshp.html
+[2022-10-06@00:51:02] JSHP Server (0.0.0.0:8080) started
+[2022-10-06@00:51:06] INFO 127.0.0.1 GET /
+[2022-10-06@00:51:06] WARN 127.0.0.1 runner: recompiled Public/index.jshp.html
+[2022-10-06@00:51:06] WARN 127.0.0.1 fallback to Public/.builds/index.jshp.html.exec.js
+[2022-10-06@00:51:06] INFO 127.0.0.1 500 /index.jshp.html
+[2022-10-06@09:38:36] JSHP Server (0.0.0.0:8080) started
+[2022-10-06@09:39:36] INFO 127.0.0.1 GET /
+[2022-10-06@09:39:36] WARN 127.0.0.1 runner: recompiled Public/index.jshp.html
+[2022-10-06@09:39:36] WARN 127.0.0.1 fallback to /index.jshp.html
+[2022-10-06@09:39:36] INFO 127.0.0.1 500 /index.jshp.html
+[2022-10-06@09:39:36] INFO 127.0.0.1 GET /favicon.ico
+[2022-10-06@09:39:36] ERROR 127.0.0.1 404 /favicon.ico
+    Error: ENOENT: no such file or directory, lstat 'Public/favicon.ico'
+        at Object.lstatSync (node:fs:1574:3)
+        at Server.serverCallback (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/src/modules/server/server.ts:175:16)
+        at Server.emit (node:events:513:28)
+        at parserOnIncoming (node:_http_server:1013:12)
+        at HTTPParser.parserOnHeadersComplete (node:_http_common:117:17)
+[2022-10-06@09:39:36] INFO 127.0.0.1 404 /404.html
+[2022-10-06@09:43:56] JSHP Server (0.0.0.0:8080) started
+[2022-10-06@09:43:58] INFO 127.0.0.1 GET /
+[2022-10-06@09:43:58] WARN 127.0.0.1 runner: recompiled Public/index.jshp.html
+[2022-10-06@09:43:59] WARN 127.0.0.1 hotCompile: fallback to /index.jshp.html
+[2022-10-06@09:43:59] INFO 127.0.0.1 500 /index.jshp.html
+[2022-10-06@09:45:17] JSHP Server (0.0.0.0:8080) started
+[2022-10-06@09:45:20] INFO 127.0.0.1 GET /
+[2022-10-06@09:45:21] WARN 127.0.0.1 runner: recompiled Public/index.jshp.html
+[2022-10-06@09:45:21] WARN 127.0.0.1 hotCompile: fallback to /index.jshp.html
+[2022-10-06@09:45:21] INFO 127.0.0.1 500 /index.jshp.html
+[2022-10-06@09:48:34] JSHP Server (0.0.0.0:8080) started
+[2022-10-06@09:48:37] INFO 127.0.0.1 GET /
+[2022-10-06@09:48:37] WARN 127.0.0.1 runner: recompiled Public/index.jshp.html
+[2022-10-06@09:48:37] WARN 127.0.0.1 hotCompile: fallback to /index.jshp.html
+[2022-10-06@09:48:37] INFO 127.0.0.1 500 /index.jshp.html
+[2022-10-06@09:50:25] JSHP Server (0.0.0.0:8080) started
+[2022-10-06@09:50:28] INFO 127.0.0.1 GET /
+[2022-10-06@09:50:28] WARN 127.0.0.1 runner: recompiled Public/index.jshp.html
+[2022-10-06@09:50:28] WARN 127.0.0.1 hotCompile: fallback to /index.jshp.html
+[2022-10-06@09:50:28] INFO 127.0.0.1 500 /index.jshp.html
+[2022-10-06@09:51:28] JSHP Server (0.0.0.0:8080) started
+[2022-10-06@09:51:31] INFO 127.0.0.1 GET /
+[2022-10-06@09:51:31] WARN 127.0.0.1 runner: recompiled Public/index.jshp.html
+[2022-10-06@09:51:31] WARN 127.0.0.1 hotCompile: fallback to /index.jshp.html
+[2022-10-06@09:51:31] ERROR 127.0.0.1 500 /index.jshp.html
+    runner: jshp file error
+    TypeError: prvremadr.adr is not a function
+        at exports.getRemoteAddr (eval at prequire (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:552:13), <anonymous>:4:22)
+        at eval (eval at prequire (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:552:13), <anonymous>:23:33)
+        at eval (eval at prequire (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:552:13), <anonymous>:59:14)
+        at prequire (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:552:13)
+        at /data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:632:9
+        at Generator.next (<anonymous>)
+        at fulfilled (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:28:58)
+[2022-10-06@09:51:31] ERROR 127.0.0.1 500 /index.jshp.html
+    parser exited with 1
+[2022-10-06@09:54:35] JSHP Server (0.0.0.0:8080) started
+[2022-10-06@09:54:37] INFO 127.0.0.1 GET /
+[2022-10-06@09:54:38] WARN 127.0.0.1 runner: recompiled Public/index.jshp.html
+[2022-10-06@09:54:38] WARN 127.0.0.1 hotCompile: fallback to /index.jshp.html
+[2022-10-06@09:54:38] ERROR 127.0.0.1 500 /index.jshp.html
+    runner: jshp file error
+    TypeError: prvremadr.adr is not a function
+        at exports.getRemoteAddr (eval at prequire (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:552:13), <anonymous>:4:22)
+        at eval (eval at prequire (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:552:13), <anonymous>:23:33)
+        at eval (eval at prequire (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:552:13), <anonymous>:59:14)
+        at prequire (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:552:13)
+        at /data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:632:9
+        at Generator.next (<anonymous>)
+        at fulfilled (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:28:58)
+[2022-10-06@09:54:38] ERROR 127.0.0.1 500 /index.jshp.html
+    parser exited with 1
+[2022-10-06@10:04:58] JSHP Server (0.0.0.0:8080) started
+[2022-10-06@10:05:05] INFO 127.0.0.1 GET /
+[2022-10-06@10:05:05] WARN 127.0.0.1 runner: recompiled Public/index.jshp.html
+[2022-10-06@10:05:05] WARN 127.0.0.1 hotCompile: fallback to /index.jshp.html
+[2022-10-06@10:05:05] INFO 127.0.0.1 200 /index.jshp.html
+[2022-10-06@10:05:09] INFO 127.0.0.1 GET /headers
+[2022-10-06@10:05:09] WARN 127.0.0.1 runner: recompiled Public/headers.jshp.html
+[2022-10-06@10:05:09] WARN 127.0.0.1 hotCompile: fallback to /headers.jshp.html
+[2022-10-06@10:05:09] WARN 127.0.0.1 runner: recompiled Public/logs/index.jshp.html
+[2022-10-06@10:05:09] WARN 127.0.0.1 fallback compile: fallback to /logs/index.jshp.html
+[2022-10-06@10:05:09] INFO 127.0.0.1 200 /headers.jshp.html
+[2022-10-06@10:05:10] INFO 127.0.0.1 GET /headers
+[2022-10-06@10:05:11] WARN 127.0.0.1 runner: recompiled Public/headers.jshp.html
+[2022-10-06@10:05:11] WARN 127.0.0.1 hotCompile: fallback to /headers.jshp.html
+[2022-10-06@10:05:11] INFO 127.0.0.1 200 /headers.jshp.html
+[2022-10-06@10:05:12] INFO 127.0.0.1 GET /headers
+[2022-10-06@10:05:12] WARN 127.0.0.1 runner: recompiled Public/headers.jshp.html
+[2022-10-06@10:05:12] WARN 127.0.0.1 hotCompile: fallback to /headers.jshp.html
+[2022-10-06@10:05:12] INFO 127.0.0.1 200 /headers.jshp.html
+[2022-10-06@10:14:29] JSHP Server (0.0.0.0:8080) started
+[2022-10-06@10:14:39] INFO 127.0.0.1 GET /
+[2022-10-06@10:14:39] WARN 127.0.0.1 runner: recompiled Public/index.jshp.html
+[2022-10-06@10:14:39] ERROR 127.0.0.1 500 /index.jshp.html
+    runner: jshp file error
+    TypeError: prvremadr.adr is not a function
+        at exports.getRemoteAddr (eval at prequire (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:552:13), <anonymous>:4:22)
+        at eval (eval at prequire (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:552:13), <anonymous>:23:33)
+        at eval (eval at prequire (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:552:13), <anonymous>:59:14)
+        at prequire (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:552:13)
+        at /data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:632:9
+        at Generator.next (<anonymous>)
+        at fulfilled (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:28:58)
+[2022-10-06@10:14:39] ERROR 127.0.0.1 500 /index.jshp.html
+    parser exited with 1
+[2022-10-06@10:18:33] INFO 127.0.0.1 GET /
+[2022-10-06@10:18:33] WARN 127.0.0.1 runner: recompiled Public/index.jshp.html
+[2022-10-06@10:18:33] ERROR 127.0.0.1 500 /index.jshp.html
+    runner: jshp file error
+    TypeError: prvremadr.adr is not a function
+        at exports.getRemoteAddr (eval at prequire (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:552:13), <anonymous>:4:22)
+        at eval (eval at prequire (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:552:13), <anonymous>:23:33)
+        at eval (eval at prequire (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:552:13), <anonymous>:59:14)
+        at prequire (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:552:13)
+        at /data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:632:9
+        at Generator.next (<anonymous>)
+        at fulfilled (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:28:58)
+[2022-10-06@10:18:33] ERROR 127.0.0.1 500 /index.jshp.html
+    parser exited with 1
+[2022-10-06@10:18:48] JSHP Server (0.0.0.0:8080) started
+[2022-10-06@10:18:50] INFO 127.0.0.1 GET /
+[2022-10-06@10:18:50] WARN 127.0.0.1 runner: recompiled Public/index.jshp.html
+[2022-10-06@10:18:50] ERROR 127.0.0.1 500 /index.jshp.html
+    runner: jshp file error
+    TypeError: prvremadr.adr is not a function
+        at exports.getRemoteAddr (eval at prequire (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:552:13), <anonymous>:4:22)
+        at eval (eval at prequire (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:552:13), <anonymous>:23:33)
+        at eval (eval at prequire (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:552:13), <anonymous>:59:14)
+        at prequire (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:552:13)
+        at /data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:633:9
+        at Generator.next (<anonymous>)
+        at fulfilled (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:28:58)
+[2022-10-06@10:18:50] ERROR 127.0.0.1 500 /index.jshp.html
+    parser exited with 1
+[2022-10-06@10:18:52] INFO 127.0.0.1 GET /
+[2022-10-06@10:18:53] WARN 127.0.0.1 runner: recompiled Public/index.jshp.html
+[2022-10-06@10:18:53] ERROR 127.0.0.1 500 /index.jshp.html
+    runner: jshp file error
+    TypeError: prvremadr.adr is not a function
+        at exports.getRemoteAddr (eval at prequire (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:552:13), <anonymous>:4:22)
+        at eval (eval at prequire (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:552:13), <anonymous>:23:33)
+        at eval (eval at prequire (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:552:13), <anonymous>:59:14)
+        at prequire (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:552:13)
+        at /data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:633:9
+        at Generator.next (<anonymous>)
+        at fulfilled (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:28:58)
+[2022-10-06@10:18:53] ERROR 127.0.0.1 500 /index.jshp.html
+    parser exited with 1
+[2022-10-06@10:20:16] JSHP Server (0.0.0.0:8080) started
+[2022-10-06@10:20:20] INFO 127.0.0.1 GET /
+[2022-10-06@10:20:21] WARN 127.0.0.1 runner: recompiled Public/index.jshp.html
+[2022-10-06@10:20:21] ERROR 127.0.0.1 500 /index.jshp.html
+    runner: jshp file error
+    TypeError: prvremadr.adr is not a function
+        at exports.getRemoteAddr (eval at prequire (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:552:13), <anonymous>:4:22)
+        at eval (eval at prequire (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:552:13), <anonymous>:23:33)
+        at eval (eval at prequire (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:552:13), <anonymous>:59:14)
+        at prequire (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:552:13)
+        at /data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:633:9
+        at Generator.next (<anonymous>)
+        at fulfilled (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:28:58)
+[2022-10-06@10:20:21] ERROR 127.0.0.1 500 /index.jshp.html
+    parser exited with 1
+[2022-10-06@10:31:26] JSHP Server (0.0.0.0:8080) started
+[2022-10-06@10:31:29] INFO 127.0.0.1 GET /
+[2022-10-06@10:31:29] WARN 127.0.0.1 runner: recompiled Public/index.jshp.html
+[2022-10-06@10:31:29] ERROR 127.0.0.1 500 /index.jshp.html
+    runner: jshp file error
+    TypeError: prvremadr.adr is not a function
+        at exports.getRemoteAddr (eval at prequire (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:552:13), <anonymous>:4:22)
+        at eval (eval at prequire (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:552:13), <anonymous>:23:33)
+        at eval (eval at prequire (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:552:13), <anonymous>:59:14)
+        at prequire (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:552:13)
+        at /data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:633:9
+        at Generator.next (<anonymous>)
+        at fulfilled (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:28:58)
+[2022-10-06@10:31:29] ERROR 127.0.0.1 500 /index.jshp.html
+    parser exited with 1
+[2022-10-06@10:31:43] INFO 127.0.0.1 GET /
+[2022-10-06@10:31:43] WARN 127.0.0.1 runner: recompiled Public/index.jshp.html
+[2022-10-06@10:31:43] ERROR 127.0.0.1 500 /index.jshp.html
+    runner: jshp file error
+    TypeError: prvremadr.adr is not a function
+        at exports.getRemoteAddr (eval at prequire (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:552:13), <anonymous>:4:22)
+        at eval (eval at prequire (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:552:13), <anonymous>:23:33)
+        at eval (eval at prequire (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:552:13), <anonymous>:59:14)
+        at prequire (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:552:13)
+        at /data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:633:9
+        at Generator.next (<anonymous>)
+        at fulfilled (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:28:58)
+[2022-10-06@10:31:43] ERROR 127.0.0.1 500 /index.jshp.html
+    parser exited with 1
+[2022-10-06@10:32:18] INFO 127.0.0.1 GET /
+[2022-10-06@10:32:18] WARN 127.0.0.1 runner: recompiled Public/index.jshp.html
+[2022-10-06@10:32:18] ERROR 127.0.0.1 500 /index.jshp.html
+    runner: jshp file error
+    TypeError: prvremadr.adr is not a function
+        at exports.getRemoteAddr (eval at prequire (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:552:13), <anonymous>:4:22)
+        at eval (eval at prequire (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:552:13), <anonymous>:23:33)
+        at eval (eval at prequire (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:552:13), <anonymous>:59:14)
+        at prequire (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:552:13)
+        at /data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:633:9
+        at Generator.next (<anonymous>)
+        at fulfilled (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:28:58)
+[2022-10-06@10:32:18] ERROR 127.0.0.1 500 /index.jshp.html
+    parser exited with 1
+[2022-10-06@10:32:27] INFO 127.0.0.1 GET /
+[2022-10-06@10:32:27] WARN 127.0.0.1 runner: recompiled Public/index.jshp.html
+[2022-10-06@10:32:27] ERROR 127.0.0.1 500 /index.jshp.html
+    runner: jshp file error
+    TypeError: prvremadr.adr is not a function
+        at exports.getRemoteAddr (eval at prequire (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:552:13), <anonymous>:4:22)
+        at eval (eval at prequire (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:552:13), <anonymous>:23:33)
+        at eval (eval at prequire (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:552:13), <anonymous>:59:14)
+        at prequire (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:552:13)
+        at /data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:633:9
+        at Generator.next (<anonymous>)
+        at fulfilled (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:28:58)
+[2022-10-06@10:32:27] ERROR 127.0.0.1 500 /index.jshp.html
+    parser exited with 1
+[2022-10-06@10:32:27] INFO 127.0.0.1 GET /favicon.ico
+[2022-10-06@10:32:27] ERROR 127.0.0.1 404 /favicon.ico
+    Error: ENOENT: no such file or directory, lstat 'Public/favicon.ico'
+        at Object.lstatSync (node:fs:1574:3)
+        at Server.serverCallback (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/src/modules/server/server.ts:175:16)
+        at Server.emit (node:events:513:28)
+        at parserOnIncoming (node:_http_server:1013:12)
+        at HTTPParser.parserOnHeadersComplete (node:_http_common:117:17)
+[2022-10-06@10:32:27] INFO 127.0.0.1 404 /404.html
+[2022-10-06@10:34:17] JSHP Server (0.0.0.0:8080) started
+[2022-10-06@10:34:24] INFO 127.0.0.1 GET /
+[2022-10-06@10:34:25] WARN 127.0.0.1 runner: recompiled Public/index.jshp.html
+[2022-10-06@10:34:25] ERROR 127.0.0.1 500 /index.jshp.html
+    runner: jshp file error
+    TypeError: prvremadr.adr is not a function
+        at exports.getRemoteAddr (eval at prequire (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:554:13), <anonymous>:4:22)
+        at eval (eval at prequire (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:554:13), <anonymous>:23:33)
+        at eval (eval at prequire (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:554:13), <anonymous>:59:14)
+        at prequire (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:554:13)
+        at /data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:637:9
+        at Generator.next (<anonymous>)
+        at fulfilled (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:28:58)
+[2022-10-06@10:34:25] ERROR 127.0.0.1 500 /index.jshp.html
+    parser exited with 1
+[2022-10-06@10:40:06] JSHP Server (0.0.0.0:8080) started
+[2022-10-06@10:40:09] INFO 127.0.0.1 GET /
+[2022-10-06@10:40:09] WARN 127.0.0.1 runner: recompiled Public/index.jshp.html
+[2022-10-06@10:40:09] ERROR 127.0.0.1 500 /index.jshp.html
+    runner: jshp file error
+    TypeError: prvremadr.adr is not a function
+        at exports.getRemoteAddr (eval at prequire (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:554:13), <anonymous>:4:22)
+        at eval (eval at prequire (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:554:13), <anonymous>:23:33)
+        at eval (eval at prequire (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:554:13), <anonymous>:59:14)
+        at prequire (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:554:13)
+        at /data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:637:9
+        at Generator.next (<anonymous>)
+        at fulfilled (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:28:58)
+[2022-10-06@10:40:09] ERROR 127.0.0.1 500 /index.jshp.html
+    parser exited with 1
+[2022-10-06@10:57:17] JSHP Server (0.0.0.0:8080) started
+[2022-10-06@10:57:25] INFO 127.0.0.1 GET /
+[2022-10-06@10:57:25] WARN 127.0.0.1 runner: recompiled Public/index.jshp.html
+[2022-10-06@10:57:25] ERROR 127.0.0.1 500 /index.jshp.html
+    runner: jshp file error
+    TypeError: prvremadr.adr is not a function
+        at exports.getRemoteAddr (eval at prequire (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:554:13), <anonymous>:4:22)
+        at eval (eval at prequire (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:554:13), <anonymous>:23:33)
+        at eval (eval at prequire (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:554:13), <anonymous>:59:14)
+        at prequire (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:554:13)
+        at /data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:637:9
+        at Generator.next (<anonymous>)
+        at fulfilled (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:28:58)
+[2022-10-06@10:57:25] ERROR 127.0.0.1 500 /index.jshp.html
+    parser exited with 1
+[2022-10-06@11:01:07] JSHP Server (0.0.0.0:8080) started
+[2022-10-06@11:01:10] INFO 127.0.0.1 GET /
+[2022-10-06@11:01:10] WARN 127.0.0.1 runner: recompiled Public/index.jshp.html
+[2022-10-06@11:01:10] ERROR 127.0.0.1 500 /index.jshp.html
+    runner: jshp file error
+    TypeError: prvremadr.adr is not a function
+        at exports.getRemoteAddr (eval at prequire (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:554:13), <anonymous>:4:22)
+        at eval (eval at prequire (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:554:13), <anonymous>:23:33)
+        at eval (eval at prequire (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:554:13), <anonymous>:59:14)
+        at prequire (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:554:13)
+        at /data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:637:9
+        at Generator.next (<anonymous>)
+        at fulfilled (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:28:58)
+[2022-10-06@11:01:10] ERROR 127.0.0.1 500 /index.jshp.html
+    parser exited with 1
+[2022-10-06@11:02:21] JSHP Server (0.0.0.0:8080) started
+[2022-10-06@11:02:24] INFO 127.0.0.1 GET /
+[2022-10-06@11:02:24] WARN 127.0.0.1 runner: recompiled Public/index.jshp.html
+[2022-10-06@11:02:24] ERROR 127.0.0.1 500 /index.jshp.html
+    runner: jshp file error
+    TypeError: prvremadr.adr is not a function
+        at exports.getRemoteAddr (eval at prequire (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:554:13), <anonymous>:4:22)
+        at eval (eval at prequire (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:554:13), <anonymous>:23:33)
+        at eval (eval at prequire (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:554:13), <anonymous>:59:14)
+        at prequire (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:554:13)
+        at /data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:637:9
+        at Generator.next (<anonymous>)
+        at fulfilled (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:28:58)
+[2022-10-06@11:02:24] ERROR 127.0.0.1 500 /index.jshp.html
+    parser exited with 1
+[2022-10-06@11:02:52] JSHP Server (0.0.0.0:8080) started
+[2022-10-06@11:02:54] INFO 127.0.0.1 GET /
+[2022-10-06@11:02:54] WARN 127.0.0.1 runner: recompiled Public/index.jshp.html
+[2022-10-06@11:02:54] ERROR 127.0.0.1 500 /index.jshp.html
+    runner: jshp file error
+    TypeError: prvremadr.adr is not a function
+        at exports.getRemoteAddr (eval at prequire (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:554:13), <anonymous>:4:22)
+        at eval (eval at prequire (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:554:13), <anonymous>:23:33)
+        at eval (eval at prequire (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:554:13), <anonymous>:59:14)
+        at prequire (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:554:13)
+        at /data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:637:9
+        at Generator.next (<anonymous>)
+        at fulfilled (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:28:58)
+[2022-10-06@11:02:54] ERROR 127.0.0.1 500 /index.jshp.html
+    parser exited with 1
+[2022-10-06@11:06:36] INFO 127.0.0.1 GET /
+[2022-10-06@11:06:36] WARN 127.0.0.1 runner: recompiled Public/index.jshp.html
+[2022-10-06@11:06:36] ERROR 127.0.0.1 500 /index.jshp.html
+    runner: jshp file error
+    TypeError: prvremadr.adr is not a function
+        at exports.getRemoteAddr (eval at prequire (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:554:13), <anonymous>:7:22)
+        at eval (eval at prequire (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:554:13), <anonymous>:23:33)
+        at eval (eval at prequire (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:554:13), <anonymous>:59:14)
+        at prequire (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:554:13)
+        at /data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:637:9
+        at Generator.next (<anonymous>)
+        at fulfilled (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:28:58)
+[2022-10-06@11:06:36] ERROR 127.0.0.1 500 /index.jshp.html
+    parser exited with 1
+[2022-10-06@11:07:07] INFO 127.0.0.1 GET /
+[2022-10-06@11:07:07] WARN 127.0.0.1 runner: recompiled Public/index.jshp.html
+[2022-10-06@11:07:07] ERROR 127.0.0.1 500 /index.jshp.html
+    runner: jshp file error
+    TypeError: prvremadr.adr is not a function
+        at exports.getRemoteAddr (eval at prequire (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:554:13), <anonymous>:4:22)
+        at eval (eval at prequire (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:554:13), <anonymous>:23:33)
+        at eval (eval at prequire (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:554:13), <anonymous>:59:14)
+        at prequire (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:554:13)
+        at /data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:637:9
+        at Generator.next (<anonymous>)
+        at fulfilled (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:28:58)
+[2022-10-06@11:07:07] ERROR 127.0.0.1 500 /index.jshp.html
+    parser exited with 1
+[2022-10-06@11:08:25] INFO 127.0.0.1 GET /
+[2022-10-06@11:08:26] WARN 127.0.0.1 runner: recompiled Public/index.jshp.html
+[2022-10-06@11:08:26] INFO 127.0.0.1 200 /index.jshp.html
+[2022-10-06@11:08:29] INFO 127.0.0.1 GET /headers
+[2022-10-06@11:08:29] WARN 127.0.0.1 runner: recompiled Public/headers.jshp.html
+[2022-10-06@11:08:29] INFO 127.0.0.1 200 /headers.jshp.html
+[2022-10-06@11:08:34] INFO 127.0.0.1 GET /headers
+[2022-10-06@11:08:34] WARN 127.0.0.1 runner: recompiled Public/headers.jshp.html
+[2022-10-06@11:08:34] INFO 127.0.0.1 200 /headers.jshp.html
+[2022-10-06@11:08:40] INFO 127.0.0.1 GET /logs/
+[2022-10-06@11:08:40] WARN 127.0.0.1 runner: recompiled Public/logs/index.jshp.html
+[2022-10-06@11:08:40] INFO 127.0.0.1 200 /logs/index.jshp.html
+[2022-10-06@11:08:43] INFO 127.0.0.1 GET /config/
+[2022-10-06@11:08:43] WARN 127.0.0.1 runner: recompiled Public/config/index.jshp.html
+[2022-10-06@11:08:43] INFO 127.0.0.1 200 /config/index.jshp.html
+[2022-10-06@11:08:54] INFO 127.0.0.1 GET /logs/
+[2022-10-06@11:08:54] WARN 127.0.0.1 runner: recompiled Public/logs/index.jshp.html
+[2022-10-06@11:08:54] INFO 127.0.0.1 200 /logs/index.jshp.html
+[2022-10-06@11:08:56] INFO 127.0.0.1 GET /headers
+[2022-10-06@11:08:56] WARN 127.0.0.1 runner: recompiled Public/headers.jshp.html
+[2022-10-06@11:08:56] INFO 127.0.0.1 200 /headers.jshp.html
+[2022-10-06@11:11:37] JSHP Server (0.0.0.0:8080) started
+[2022-10-06@11:11:39] INFO 127.0.0.1 GET /headers
+[2022-10-06@11:11:39] WARN 127.0.0.1 runner: recompiled Public/headers.jshp.html
+[2022-10-06@11:11:39] INFO 127.0.0.1 200 /headers.jshp.html
+[2022-10-06@11:11:57] INFO 127.0.0.1 GET /headers
+[2022-10-06@11:11:58] WARN 127.0.0.1 runner: recompiled Public/headers.jshp.html
+[2022-10-06@11:11:58] INFO 127.0.0.1 200 /headers.jshp.html
+[2022-10-06@11:17:03] JSHP Server (0.0.0.0:8080) started
+[2022-10-06@11:17:06] INFO 127.0.0.1 GET /headers
+[2022-10-06@11:17:06] WARN 127.0.0.1 runner: recompiled Public/headers.jshp.html
+[2022-10-06@11:17:06] INFO 127.0.0.1 200 /headers.jshp.html
+[2022-10-06@11:17:15] JSHP Server (0.0.0.0:8080) started
+[2022-10-06@11:17:17] INFO 127.0.0.1 GET /headers
+[2022-10-06@11:17:17] WARN 127.0.0.1 runner: recompiled Public/headers.jshp.html
+[2022-10-06@11:17:17] WARN 127.0.0.1 runner: recompiled Public/logs/index.jshp.html
+[2022-10-06@11:17:17] WARN 127.0.0.1 fallback compile: fallback to /logs/index.jshp.html
+[2022-10-06@11:17:17] INFO 127.0.0.1 200 /headers.jshp.html
+[2022-10-06@11:17:20] INFO 127.0.0.1 GET /headers
+[2022-10-06@11:17:20] WARN 127.0.0.1 runner: recompiled Public/headers.jshp.html
+[2022-10-06@11:17:20] INFO 127.0.0.1 200 /headers.jshp.html
+[2022-10-06@11:18:56] JSHP Server (0.0.0.0:8080) started
+[2022-10-06@11:18:59] INFO 127.0.0.1 GET /headers
+[2022-10-06@11:18:59] WARN 127.0.0.1 runner: recompiled Public/headers.jshp.html
+[2022-10-06@11:18:59] INFO 127.0.0.1 200 /headers.jshp.html
+[2022-10-06@11:19:07] JSHP Server (0.0.0.0:8080) started
+[2022-10-06@11:19:09] INFO 127.0.0.1 GET /headers
+[2022-10-06@11:19:09] WARN 127.0.0.1 runner: recompiled Public/headers.jshp.html
+[2022-10-06@11:19:09] WARN 127.0.0.1 runner: recompiled Public/logs/index.jshp.html
+[2022-10-06@11:19:09] WARN 127.0.0.1 fallback compile: fallback to /logs/index.jshp.html
+[2022-10-06@11:19:09] INFO 127.0.0.1 200 /headers.jshp.html
+[2022-10-06@11:19:15] INFO 127.0.0.1 GET /headers
+[2022-10-06@11:19:15] WARN 127.0.0.1 runner: recompiled Public/headers.jshp.html
+[2022-10-06@11:19:15] INFO 127.0.0.1 200 /headers.jshp.html
+[2022-10-06@11:20:28] JSHP Server (0.0.0.0:8080) started
+[2022-10-06@11:20:31] INFO 127.0.0.1 GET /headers
+[2022-10-06@11:20:32] WARN 127.0.0.1 runner: recompiled Public/headers.jshp.html
+[2022-10-06@11:20:32] WARN 127.0.0.1 runner: recompiled Public/logs/index.jshp.html
+[2022-10-06@11:20:32] WARN 127.0.0.1 fallback compile: fallback to /logs/index.jshp.html
+[2022-10-06@11:20:32] INFO 127.0.0.1 200 /headers.jshp.html
+[2022-10-06@11:20:49] JSHP Server (0.0.0.0:8080) started
+[2022-10-06@11:20:51] INFO 127.0.0.1 GET /headers
+[2022-10-06@11:20:51] WARN 127.0.0.1 runner: recompiled Public/headers.jshp.html
+[2022-10-06@11:20:51] WARN 127.0.0.1 runner: recompiled Public/logs/index.jshp.html
+[2022-10-06@11:20:51] WARN 127.0.0.1 fallback compile: fallback to /logs/index.jshp.html
+[2022-10-06@11:20:51] INFO 127.0.0.1 200 /headers.jshp.html
+[2022-10-06@11:21:31] JSHP Server (0.0.0.0:8080) started
+[2022-10-06@11:21:34] INFO 127.0.0.1 GET /headers
+[2022-10-06@11:21:34] WARN 127.0.0.1 runner: recompiled Public/headers.jshp.html
+[2022-10-06@11:21:34] WARN 127.0.0.1 runner: recompiled Public/logs/index.jshp.html
+[2022-10-06@11:21:34] WARN 127.0.0.1 fallback compile: fallback to /logs/index.jshp.html
+[2022-10-06@11:21:34] INFO 127.0.0.1 200 /headers.jshp.html
+[2022-10-06@11:21:43] INFO 127.0.0.1 GET /headers
+[2022-10-06@11:21:43] WARN 127.0.0.1 runner: recompiled Public/headers.jshp.html
+[2022-10-06@11:21:43] INFO 127.0.0.1 200 /headers.jshp.html
+[2022-10-06@11:22:17] JSHP Server (0.0.0.0:8080) started
+[2022-10-06@11:22:19] INFO 127.0.0.1 GET /headers
+[2022-10-06@11:22:20] INFO 127.0.0.1 200 /headers.jshp.html
+[2022-10-06@11:22:28] INFO 127.0.0.1 GET /
+[2022-10-06@11:22:28] WARN 127.0.0.1 runner: recompiled Public/index.jshp.html
+[2022-10-06@11:22:28] WARN 127.0.0.1 fallback compile: fallback to /index.jshp.html
+[2022-10-06@11:22:28] INFO 127.0.0.1 200 /index.jshp.html
+[2022-10-06@11:22:36] INFO 127.0.0.1 GET /
+[2022-10-06@11:22:37] INFO 127.0.0.1 200 /index.jshp.html
+[2022-10-06@11:23:50] INFO 127.0.0.1 GET /
+[2022-10-06@11:23:50] ERROR 127.0.0.1 500 /index.jshp.html
+    runner: jshp file error
+    TypeError: prvremadr.adr is not a function
+        at exports.getRemoteAddr (eval at prequire (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:554:13), <anonymous>:4:22)
+        at eval (eval at prequire (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:554:13), <anonymous>:23:33)
+        at eval (eval at prequire (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:554:13), <anonymous>:59:14)
+        at prequire (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:554:13)
+        at /data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:640:9
+        at Generator.next (<anonymous>)
+        at /data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:31:71
+        at new Promise (<anonymous>)
+        at __awaiter (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:27:12)
+        at /data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:611:12
+[2022-10-06@11:23:50] ERROR 127.0.0.1 500 /index.jshp.html
+    parser exited with 1
+[2022-10-06@11:24:27] JSHP Server (0.0.0.0:8080) started
+[2022-10-06@11:24:29] INFO 127.0.0.1 GET /
+[2022-10-06@11:24:29] ERROR 127.0.0.1 500 /index.jshp.html
+    runner: jshp file error
+    TypeError: prvremadr.adr is not a function
+        at exports.getRemoteAddr (eval at prequire (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:554:13), <anonymous>:4:22)
+        at eval (eval at prequire (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:554:13), <anonymous>:23:33)
+        at eval (eval at prequire (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:554:13), <anonymous>:59:14)
+        at prequire (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:554:13)
+        at /data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:639:9
+        at Generator.next (<anonymous>)
+        at /data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:31:71
+        at new Promise (<anonymous>)
+        at __awaiter (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:27:12)
+        at /data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:610:12
+[2022-10-06@11:24:29] ERROR 127.0.0.1 500 /index.jshp.html
+    parser exited with 1
+[2022-10-06@11:30:59] JSHP Server (0.0.0.0:8080) started
+[2022-10-06@11:31:02] INFO 127.0.0.1 GET /
+[2022-10-06@11:31:02] ERROR 127.0.0.1 500 /index.jshp.html
+    runner: jshp file error
+    TypeError: prvremadr.adr is not a function
+        at exports.getRemoteAddr (eval at prequire (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:554:13), <anonymous>:4:22)
+        at eval (eval at prequire (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:554:13), <anonymous>:23:33)
+        at eval (eval at prequire (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:554:13), <anonymous>:59:14)
+        at prequire (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:554:13)
+        at /data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:639:9
+        at Generator.next (<anonymous>)
+        at /data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:31:71
+        at new Promise (<anonymous>)
+        at __awaiter (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:27:12)
+        at /data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:610:12
+[2022-10-06@11:31:02] ERROR 127.0.0.1 500 /index.jshp.html
+    parser exited with 1
+[2022-10-06@11:48:29] JSHP Server (0.0.0.0:8080) started
+[2022-10-06@11:48:32] INFO 127.0.0.1 GET /
+[2022-10-06@11:48:32] ERROR 127.0.0.1 500 /index.jshp.html
+    runner: jshp file error
+    TypeError: prvremadr.adr is not a function
+        at exports.getRemoteAddr (eval at prequire (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:554:13), <anonymous>:4:22)
+        at eval (eval at prequire (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:554:13), <anonymous>:23:33)
+        at eval (eval at prequire (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:554:13), <anonymous>:59:14)
+        at prequire (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:554:13)
+        at /data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:639:9
+        at Generator.next (<anonymous>)
+        at /data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:31:71
+        at new Promise (<anonymous>)
+        at __awaiter (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:27:12)
+        at /data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:610:12
+[2022-10-06@11:48:32] ERROR 127.0.0.1 500 /index.jshp.html
+    parser exited with 1
+[2022-10-06@11:48:32] INFO 127.0.0.1 GET /favicon.ico
+[2022-10-06@11:48:32] ERROR 127.0.0.1 404 /favicon.ico
+    Error: ENOENT: no such file or directory, lstat 'Public/favicon.ico'
+        at Object.lstatSync (node:fs:1574:3)
+        at Server.serverCallback (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/src/modules/server/server.ts:175:16)
+        at Server.emit (node:events:513:28)
+        at parserOnIncoming (node:_http_server:1013:12)
+        at HTTPParser.parserOnHeadersComplete (node:_http_common:117:17)
+[2022-10-06@11:48:32] INFO 127.0.0.1 404 /404.html
+[2022-10-06@11:51:56] JSHP Server (0.0.0.0:8080) started
+[2022-10-06@11:51:59] INFO 127.0.0.1 GET /
+[2022-10-06@11:51:59] WARN 127.0.0.1 runner: recompiled Public/index.jshp.html
+[2022-10-06@11:51:59] WARN 127.0.0.1 fallback compile: fallback to /index.jshp.html
+[2022-10-06@11:51:59] ERROR 127.0.0.1 500 /index.jshp.html
+    runner: jshp file error
+    TypeError: prvremadr.adr is not a function
+        at exports.getRemoteAddr (eval at prequire (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:554:13), <anonymous>:4:22)
+        at Public$SLASH$index$DOT$jshp$DOT$html (eval at prequire (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:554:13), <anonymous>:23:33)
+        at eval (eval at prequire (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:554:13), <anonymous>:59:15)
+        at prequire (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:554:13)
+        at /data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:639:9
+        at Generator.next (<anonymous>)
+        at fulfilled (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:28:58)
+[2022-10-06@11:51:59] ERROR 127.0.0.1 500 /index.jshp.html
+    parser exited with 1
+[2022-10-06@11:53:42] JSHP Server (0.0.0.0:8080) started
+[2022-10-06@11:53:46] INFO 127.0.0.1 GET /
+[2022-10-06@11:53:46] ERROR 127.0.0.1 500 /index.jshp.html
+    runner: jshp file error
+    TypeError: prvremadr.adr is not a function
+        at exports.getRemoteAddr (eval at prequire (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:554:13), <anonymous>:4:22)
+        at Public$SLASH$index$DOT$jshp$DOT$html (eval at prequire (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:554:13), <anonymous>:23:33)
+        at eval (eval at prequire (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:554:13), <anonymous>:59:15)
+        at prequire (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:554:13)
+        at /data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:639:9
+        at Generator.next (<anonymous>)
+        at /data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:31:71
+        at new Promise (<anonymous>)
+        at __awaiter (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:27:12)
+        at /data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:610:12
+[2022-10-06@11:53:46] ERROR 127.0.0.1 500 /index.jshp.html
+    parser exited with 1
+[2022-10-06@11:54:34] JSHP Server (0.0.0.0:8080) started
+[2022-10-06@11:54:36] INFO 127.0.0.1 GET /
+[2022-10-06@11:54:36] ERROR 127.0.0.1 500 /index.jshp.html
+    runner: jshp file error
+    TypeError: prvremadr.adr is not a function
+        at exports.getRemoteAddr (eval at prequire (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:554:13), <anonymous>:4:22)
+        at Public$SLASH$index$DOT$jshp$DOT$html (eval at prequire (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:554:13), <anonymous>:23:33)
+        at eval (eval at prequire (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:554:13), <anonymous>:59:15)
+        at prequire (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:554:13)
+        at /data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:639:9
+        at Generator.next (<anonymous>)
+        at /data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:31:71
+        at new Promise (<anonymous>)
+        at __awaiter (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:27:12)
+        at /data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:610:12
+[2022-10-06@11:54:36] ERROR 127.0.0.1 500 /index.jshp.html
+    parser exited with 1
+[2022-10-06@11:56:55] JSHP Server (0.0.0.0:8080) started
+[2022-10-06@11:56:57] INFO 127.0.0.1 GET /
+[2022-10-06@11:56:57] ERROR 127.0.0.1 500 /index.jshp.html
+    runner: jshp file error
+    TypeError: prvremadr.adr is not a function
+        at exports.getRemoteAddr (eval at prequire (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:554:13), <anonymous>:4:22)
+        at Public$SLASH$index$DOT$jshp$DOT$html (eval at prequire (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:554:13), <anonymous>:23:33)
+        at eval (eval at prequire (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:554:13), <anonymous>:59:15)
+        at prequire (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:554:13)
+        at /data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:639:9
+        at Generator.next (<anonymous>)
+        at /data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:31:71
+        at new Promise (<anonymous>)
+        at __awaiter (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:27:12)
+        at /data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:610:12
+[2022-10-06@11:56:57] ERROR 127.0.0.1 500 /index.jshp.html
+    parser exited with 1
+[2022-10-06@12:00:18] JSHP Server (0.0.0.0:8080) started
+[2022-10-06@12:00:23] INFO 127.0.0.1 GET /
+[2022-10-06@12:00:23] ERROR 127.0.0.1 500 /index.jshp.html
+    runner: jshp file error
+    TypeError: prvremadr.adr is not a function
+        at exports.getRemoteAddr (eval at prequire (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:554:13), <anonymous>:4:22)
+        at Public$SLASH$index$DOT$jshp$DOT$html (eval at prequire (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:554:13), <anonymous>:23:33)
+        at eval (eval at prequire (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:554:13), <anonymous>:59:15)
+        at prequire (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:554:13)
+        at /data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:639:9
+        at Generator.next (<anonymous>)
+        at /data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:31:71
+        at new Promise (<anonymous>)
+        at __awaiter (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:27:12)
+        at /data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:610:12
+[2022-10-06@12:00:23] ERROR 127.0.0.1 500 /index.jshp.html
+    parser exited with 1
+[2022-10-06@12:02:46] JSHP Server (0.0.0.0:8080) started
+[2022-10-06@12:02:48] INFO 127.0.0.1 GET /
+[2022-10-06@12:02:48] ERROR 127.0.0.1 500 /index.jshp.html
+    runner: jshp file error
+    TypeError: prvremadr.adr is not a function
+        at exports.getRemoteAddr (eval at prequire (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:554:13), <anonymous>:4:22)
+        at Public$SLASH$index$DOT$jshp$DOT$html (eval at prequire (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:554:13), <anonymous>:23:33)
+        at eval (eval at prequire (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:554:13), <anonymous>:59:15)
+        at prequire (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:554:13)
+        at /data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:639:9
+        at Generator.next (<anonymous>)
+        at /data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:31:71
+        at new Promise (<anonymous>)
+        at __awaiter (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:27:12)
+        at /data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:610:12
+[2022-10-06@12:02:48] ERROR 127.0.0.1 500 /index.jshp.html
+    parser exited with 1
+[2022-10-06@12:04:52] JSHP Server (0.0.0.0:8080) started
+[2022-10-06@12:04:55] INFO 127.0.0.1 GET /
+[2022-10-06@12:04:55] ERROR 127.0.0.1 500 /index.jshp.html
+    runner: jshp file error
+    TypeError: prvremadr.adr is not a function
+        at exports.getRemoteAddr (eval at prequire (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:554:13), <anonymous>:4:22)
+        at Public$SLASH$index$DOT$jshp$DOT$html (eval at prequire (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:554:13), <anonymous>:23:33)
+        at eval (eval at prequire (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:554:13), <anonymous>:59:15)
+        at prequire (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:554:13)
+        at /data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:639:9
+        at Generator.next (<anonymous>)
+        at /data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:31:71
+        at new Promise (<anonymous>)
+        at __awaiter (/data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:27:12)
+        at /data/data/com.termux/files/usr/lib/node_modules/@aviruk/jshp/build/modules/exec/exec.js:610:12
+[2022-10-06@12:04:55] ERROR 127.0.0.1 500 /index.jshp.html
+    parser exited with 1
+[2022-10-06@12:22:13] JSHP Server (0.0.0.0:8080) started
+[2022-10-06@12:22:16] INFO 127.0.0.1 GET /
+[2022-10-06@12:22:16] ERROR 127.0.0.1 500 /index.jshp.html
+    runner: jshp file error
+    TypeError: prvremadr.adr is not a function
+        at exports.getRemoteAddr (<anonymous>:4:22)
+        at Public/index.jshp.html (<anonymous>:23:33)
+        at prequire (jshp:exec:554:13)
+        at <anonymous> (jshp:exec:639:9)
+        at Generator.next (<anonymous>)
+        at <anonymous> (jshp:exec:31:71)
+        at new Promise (<anonymous>)
+        at __awaiter (jshp:exec:27:12)
+        at <anonymous> (jshp:exec:610:12)
+[2022-10-06@12:22:16] ERROR 127.0.0.1 500 /index.jshp.html
+    parser exited with 1
+[2022-10-06@12:26:04] INFO 127.0.0.1 GET /
+[2022-10-06@12:26:05] INFO 127.0.0.1 200 /index.jshp.html
+[2022-10-06@12:26:07] INFO 127.0.0.1 GET /config/
+[2022-10-06@12:26:07] WARN 127.0.0.1 runner: recompiled Public/config/index.jshp.html
+[2022-10-06@12:26:07] WARN 127.0.0.1 fallback compile: fallback to /config/index.jshp.html
+[2022-10-06@12:26:07] INFO 127.0.0.1 200 /config/index.jshp.html
+[2022-10-06@12:26:09] INFO 127.0.0.1 GET /headers
+[2022-10-06@12:26:09] WARN 127.0.0.1 runner: recompiled Public/headers.jshp.html
+[2022-10-06@12:26:09] WARN 127.0.0.1 fallback compile: fallback to /headers.jshp.html
+[2022-10-06@12:26:09] WARN 127.0.0.1 runner: recompiled Public/logs/index.jshp.html
+[2022-10-06@12:26:09] WARN 127.0.0.1 fallback compile: fallback to /logs/index.jshp.html
+[2022-10-06@12:26:09] INFO 127.0.0.1 200 /headers.jshp.html
+[2022-10-06@12:26:16] INFO 127.0.0.1 GET /headers
+[2022-10-06@12:26:16] INFO 127.0.0.1 200 /headers.jshp.html
+[2022-10-06@12:39:54] JSHP Server (0.0.0.0:8080) started
+[2022-10-06@12:39:57] INFO 127.0.0.1 GET /headers
+[2022-10-06@12:39:57] INFO 127.0.0.1 200 /headers.jshp.html
+[2022-10-06@12:39:59] INFO 127.0.0.1 GET /config/
+[2022-10-06@12:39:59] INFO 127.0.0.1 200 /config/index.jshp.html
+[2022-10-06@12:40:00] INFO 127.0.0.1 GET /github
+[2022-10-06@12:40:00] INFO 127.0.0.1 301 https://github.com/OogleGlu/JSHP-App
+[2022-10-06@12:40:05] INFO 127.0.0.1 GET /gclcm
+[2022-10-06@12:40:05] INFO 127.0.0.1 200 /gclcm.html
+[2022-10-06@12:40:07] INFO 127.0.0.1 GET /jshpinfo/
+[2022-10-06@12:40:07] WARN 127.0.0.1 runner: recompiled Public/jshpinfo/index.jshp.html
+[2022-10-06@12:40:07] WARN 127.0.0.1 fallback compile: fallback to /jshpinfo/index.jshp.html
+[2022-10-06@12:40:07] INFO 127.0.0.1 200 /jshpinfo/index.jshp.html
+[2022-10-06@12:40:11] INFO 127.0.0.1 GET /redirect/f
+[2022-10-06@12:40:11] WARN 127.0.0.1 runner: recompiled Public/redirect/f.jshp.html
+[2022-10-06@12:40:11] WARN 127.0.0.1 fallback compile: fallback to /redirect/f.jshp.html
+[2022-10-06@12:40:11] INFO 127.0.0.1 200 /redirect/f.jshp.html
+[2022-10-06@12:40:25] INFO 127.0.0.1 GET /redirect/f?url=2wosk&url=93393939
+[2022-10-06@12:40:26] INFO 127.0.0.1 200 /redirect/f.jshp.html?url=2wosk&url=93393939
+[2022-10-06@12:40:30] INFO 127.0.0.1 GET /rwt1
+[2022-10-06@12:40:30] INFO 127.0.0.1 200 /config/index.jshp.html
+[2022-10-06@12:40:32] INFO 127.0.0.1 GET /rwt1
+[2022-10-06@12:40:32] INFO 127.0.0.1 200 /config/index.jshp.html
+[2022-10-06@12:40:34] INFO 127.0.0.1 GET /rwt2
+[2022-10-06@12:40:34] INFO 127.0.0.1 200 /logs/index.jshp.html
+[2022-10-06@12:40:41] INFO 127.0.0.1 GET /rwt2
+[2022-10-06@12:40:42] INFO 127.0.0.1 200 /logs/index.jshp.html
+[2022-10-06@12:40:43] INFO 127.0.0.1 GET /redirect/f
+[2022-10-06@12:40:43] INFO 127.0.0.1 200 /redirect/f.jshp.html
+[2022-10-06@12:40:51] INFO 127.0.0.1 GET /redirect/f?url=/headers
+[2022-10-06@12:40:51] INFO 127.0.0.1 302 /redirect/f.jshp.html?url=/headers
+[2022-10-06@12:40:51] INFO 127.0.0.1 GET /headers
+[2022-10-06@12:40:51] INFO 127.0.0.1 200 /headers.jshp.html
+[2022-10-06@12:41:29] INFO 127.0.0.1 GET /headers
+[2022-10-06@12:41:29] INFO 127.0.0.1 200 /headers.jshp.html

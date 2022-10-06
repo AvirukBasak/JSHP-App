@@ -1,4 +1,4 @@
-(async function() { echo(`<!DOCTYPE html>
+const Public$SLASH$index$DOT$jshp$DOT$html = async function() { echo(`<!DOCTYPE html>
 <html>
 <head>
     <meta name="viewport" content="width=device-width, height=device-height">
@@ -18,7 +18,11 @@
     ;  echo(`
 
     <h1 id="heading"></h1>
-    <h4 id="remoteAddress">Remote Address is `); echo(`${ $_REQUEST['remoteAddress'] }`); echo(` </h4>
+    `) ; ; ; ; ; 
+        const addr = prequire('js:config/remoteaddr');
+        const remoteAddr = addr.getRemoteAddr();
+    ;  echo(`
+    <h4 id="remoteAddress">Remote Address is `); echo(`${ remoteAddr }`); echo(` </h4>
     <p>
         <h3>Paths in this domain</h3>
         <ul>
@@ -52,4 +56,4 @@
     </script>
 
 </body>
-</html>`); })();
+</html>`); }; Public$SLASH$index$DOT$jshp$DOT$html();

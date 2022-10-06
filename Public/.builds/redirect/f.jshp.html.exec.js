@@ -1,4 +1,4 @@
-(async function() { echo(`<!DOCTYPE html>
+const Public$SLASH$redirect$SLASH$f$DOT$jshp$DOT$html = async function() { echo(`<!DOCTYPE html>
 <html>
 <head>
     
@@ -46,4 +46,4 @@
     </script>
  
 </body>
-</html>`); })();
+</html>`); }; Public$SLASH$redirect$SLASH$f$DOT$jshp$DOT$html();

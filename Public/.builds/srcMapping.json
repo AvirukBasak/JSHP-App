@@ -1,8 +1,8 @@
 {
+    "/index.jshp.html": "Public/.builds/index.jshp.html.exec.js",
     "/config/index.jshp.html": "Public/.builds/config/index.jshp.html.exec.js",
     "/headers.jshp.html": "Public/.builds/headers.jshp.html.exec.js",
-    "/index.jshp.html": "Public/.builds/index.jshp.html.exec.js",
-    "/jshpinfo/index.jshp.html": "Public/.builds/jshpinfo/index.jshp.html.exec.js",
     "/logs/index.jshp.html": "Public/.builds/logs/index.jshp.html.exec.js",
+    "/jshpinfo/index.jshp.html": "Public/.builds/jshpinfo/index.jshp.html.exec.js",
     "/redirect/f.jshp.html": "Public/.builds/redirect/f.jshp.html.exec.js"
 }

@@ -1,4 +1,4 @@
-(async function() { echo(`<!DOCTYPE html>
+const Public$SLASH$config$SLASH$index$DOT$jshp$DOT$html = async function() { echo(`<!DOCTYPE html>
 <html>
 <head>
     <meta name="viewport" content="width=device-width, height=device-height">
@@ -51,4 +51,4 @@
         Message.echo(JSON.stringify($_CONFIG, null, 4));
     ; echo(`
 </body>
-</html>`); })();
+</html>`); }; Public$SLASH$config$SLASH$index$DOT$jshp$DOT$html();

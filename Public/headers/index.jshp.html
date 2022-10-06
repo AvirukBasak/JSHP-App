@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width, height=device-height">
-    <title>Server Logs</title>
+    <title>Headers</title>
     <style>
         body {
             font-family: monospace;
@@ -13,16 +13,17 @@
 <body>
 
     <h2 id="heading"></h2>
-
-    <!-- jshp script -->
     <script jshp>
-        const data = FS.readFileSync($_RES_ROOT + '/server.log', 'utf8');
-        Message.echo(String(data), 'purple');
+        Message.echo(
+            JSON.stringify($_HEADERS, null, 4)
+                .replace(/\\\"/g, '%SL%DQ')
+                .replace(/\"/g, '')
+                .replace(/%SL%DQ/g, '"'), 'teal');
     </script>
 
     <!-- normal browser script -->
     <script>
-        const heading = 'Server Logs';
+        const heading = 'Headers';
         document.getElementById('heading').innerHTML = `${heading}`;
     </script>
 
